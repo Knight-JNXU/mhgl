@@ -1,0 +1,5 @@
+--神行身法
+
+function skill64590Attri(Char, skillLv, Attri) 
+Attri:SetMaxHp(Attri:GetMaxHp() + 300);
+end

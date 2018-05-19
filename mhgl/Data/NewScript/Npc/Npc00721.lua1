@@ -1,0 +1,180 @@
+--beifang
+--饭跑跑
+Preload("Quest80006.lua")
+
+
+Npc000721 = {							-- 饭跑跑
+	npc_id = 721,						-- NPC ID
+	name = GetNpcName(721),				-- NPC 名称
+	quests = { Quest80001,Quest80002,Quest80003,Quest80006 }				-- NPC 会派出的任务表
+}
+
+-- Npc00019 对话方法，bProcess 为脚本处理阶段
+function Npc000721:Talk(bProcess)
+	NpcAsk("本帮最近收到一些小弟上交的奇奇怪怪的东西，现特价处理"..RandomLine(8))	
+	SetAnswer(1, "我要提取本帮资金")
+	SetAnswer(2, "回收帮派资金")	
+	SetAnswer(3, "购买奇珍")
+   SetAnswer(4, "更改山庄繁荣度（需要帮派资金）")
+	if player:GetGuild() ~= nil and player:GetGuildPos() ~= 1 and player:GetGuildPos() ~= 2 and player:GetGuildPos() ~= 9 then
+		--SetAnswer(5, "申请成为商人")
+	end	
+	if player:GetGuild() ~= nil and player:GetGuildPos() == 1 then
+		if player:GetGuild():GetAutoManageBusiness( ) then
+		--	SetAnswer(6, "关闭自动管理商人")
+		else
+		--	SetAnswer(7, "开启自动管理商人")	
+		end
+	end
+	SetAnswer(10, "离开")
+	WaitAnswer(10)
+	if GetAnswer() == 1 then
+	--[[local A = math.random(1,10)
+	  if A <= 5 then
+		  if not bProcess then
+				player:AntiHack()
+			end
+	  end--]]
+		if player:GetQuests():HasQuest(80001) then
+			Quest80001:Return()
+			return
+		end		
+		if player:GetQuests():HasQuest(80002) then
+			Quest80002:Return()
+			return
+		end
+		if player:GetQuests():HasQuest(80003) then
+			Quest80003:Return()
+			return
+		end			
+		if player:GetQuests():HasQuest(80006) then
+			Quest80006:Return()
+			return
+		end	 				
+		if player:GetLevel() < 30 then
+			NpcSay(string.format("\#P30\#W级以下的玩家不能领取跑商任务。"))
+			return
+		end
+		if player:GetQuests():GetType(800) and player:GetQuests():GetType(800):GetLimitRound() == 8 then
+			player:GetQuests():RemoveType(800)
+		end
+		NpcAsk("每天只能提取一次，帮派资金必须大于5000W才能进行提取！只有帮主才能提取！")	
+		SetAnswer(1, "我是帮主")
+		--SetAnswer(2, "高效跑商")
+		SetAnswer(3, "离开")
+		WaitAnswer(3)
+		if GetAnswer() == 1 then
+			player:GetQuests():SetFlag(800,2)
+		elseif GetAnswer() == 2 then
+			player:GetQuests():SetFlag(800,1)
+		else
+			return
+		end
+		if player:GetLevel() < 50 then
+			Quest80001:Take()
+		elseif player:GetLevel() < 70 then
+			Quest80002:Take()
+		elseif player:GetLevel() < 90 then
+			Quest80003:Take()
+		elseif player:GetLevel() < 180 then
+			Quest80006:Take()
+		end	
+	elseif GetAnswer() == 2 then
+		if player:GetQuests():HasQuest(80006) then
+			NpcAsk("你确定将多余的帮派资金注入本帮吗？")	
+			SetAnswer(1, "是")
+			SetAnswer(2, "否")
+			WaitAnswer(2)		
+			if GetAnswer() == 1 then
+				if IsProcess() then	
+					script:SetSaying(true)		
+					player:GetQuests():RemoveQuest(80006)
+					player:RemoveBuff(277)
+					player:GetItems():RemoveAllBusinessItem()
+					player:GetQuests():SetTimeMark(800)
+					NpcSay("已注入。")			
+				end
+			end
+		else
+		    NpcSay("你的身上没有帮派资金。")
+		end	
+	elseif GetAnswer() == 3 then	
+		if player:GetGuild() == nil then
+			NpcSay("我们不和来历不明的人通商。")
+			return false
+		end		
+		if player:GetGuildPos() == 1 then				
+			if player:GetQuests():HasQuest(80006) then	
+			  local A = math.random(1,50)
+			  if A <= 2 then 
+			    if not bProcess then
+			      player:AntiHack()
+			    end
+			  else
+			    player:OpenBusinessShop(11)
+			  end
+			else				
+				NpcSay("你连帮派银票都没带在身上，这让我怎么和你进行贸易往来？")
+			end		
+		else
+		    NpcSay("我只与帮主交谈。")
+			end
+
+	elseif GetAnswer() == 5 then
+		if player:GetGuild():GetAutoManageBusiness( ) then
+			if player:GetGDonate() >= 0 then
+				if IsProcess() then	
+					player:ApplyTrader()
+				end
+			else
+			    NpcSay("当前帮贡大于20点的帮众才能申请成商人。")
+			end			
+		else
+			NpcSay("本帮没有开启自动管理商人功能。")
+		end				
+	elseif GetAnswer() == 6 then
+		player:GetGuild():ChangeAutoManageBusiness(false)
+		NpcSay("成功关闭自动管理商人功能。")		
+	elseif GetAnswer() == 7 then
+		player:GetGuild():ChangeAutoManageBusiness(true)
+		NpcSay("成功开启自动管理商人功能。")
+	end
+	  if GetAnswer() == 4 then
+     NpcAsk("需要更改多少？需要消耗帮派资金")
+     SetAnswer(1, "增加10（需要10000银两）")
+     SetAnswer(2, "增加100（需要100000银两）")
+     SetAnswer(3, "增加1000（需要1000000银两）")
+     SetAnswer(4, "离开")
+     WaitAnswer(4)
+     local guild = player:GetGuild()
+           if GetAnswer() == 1 then
+              if IsProcess then
+              guild:ChangeProsper(10)
+			end
+			guild:ChangeFund(-10000)
+			  ShowError("帮派繁荣增加10点")	
+           elseif GetAnswer() == 2 then
+              if IsProcess then
+              guild:ChangeProsper(100)
+			end
+			guild:ChangeFund(-100000)			
+			  ShowError("帮派繁荣增加100点")	
+           elseif GetAnswer() == 3 then
+              if IsProcess then
+              guild:ChangeProsper(1000)
+			end
+			guild:ChangeFund(-1000000)
+			  ShowError("帮派繁荣增加1000点")	
+		   end
+end
+end
+function RandomLine(MaxLine)
+    local r = math.random(1,MaxLine)
+	local t = ""
+    for i=1, r do
+		t = tostring(t)..tostring("\r.")
+	end
+	return t
+end
+-- 必需在脚本最后将 NPC 表加入系统中
+AddNpcTable(Npc000721)

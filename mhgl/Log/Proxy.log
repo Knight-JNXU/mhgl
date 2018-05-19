@@ -1,0 +1,10 @@
+[2017-10-09 15.32.19] wmain : Service Proxy Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-10-09 15.32.19] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-10-09 15.32.19] CAntiHackManager::LoadData : TotalImage:10000,MaskNum:8
+[2017-10-09 15.32.19] CAntiHackManager::AddAntiHackResList : !m_gdfManager->GetMapViewKeyOfFile(picFilename, *key),picFilename:AntiHack\Pic00069.ent,imgId:69
+[2017-10-09 15.32.19] CAntiHackManager::LoadAntiHackAnswerCSV : Initialization: 68 AntiHackAnswer(s) read
+[2017-10-09 15.32.19] ProxyApplication::ConnectServices : Registering Proxy in all connected service ...
+[2017-10-09 15.32.19] ProxyApplication::StartServiceW : Starting Proxy Service
+[2017-10-09 15.32.19] Reuben::Network::IOCPCModel::PImpl::FreeSocketObj : SocketID=8159740
+[2017-10-09 15.32.19] Reuben::Simulation::ObjectManager::~ObjectManager : ended
+[2017-10-09 15.32.19] Reuben::Simulation::ObjectManager::DeleteAll : remain objects 0

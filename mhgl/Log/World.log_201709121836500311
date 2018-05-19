@@ -1,0 +1,13 @@
+[2017-09-09 22.56.44] wmain : Service World Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-09 22.56.44] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-09 23.04.34] SelectCharacter Error(2): [reborn map no peer], sessionId 15-9936-5559, map_id 20102, line_id 1, pPeer 0
+[2017-09-09 23.05.13] SelectCharacter Error(2): [reborn map no peer], sessionId 15-0200-5942, map_id 20102, line_id 1, pPeer 0
+[2017-09-09 23.07.44] SelectCharacter Error(2): [reborn map no peer], sessionId 15-0068-6518, map_id 20102, line_id 1, pPeer 0
+[2017-09-10 19.23.33] SelectCharacter Error(2): [reborn map no peer], sessionId 15-8616-6922, map_id 20102, line_id 1, pPeer 0
+[2017-09-11 10.13.05] CAccount::AddCharacter : AddCharacter Error: ObjectService:CB_Error, errcode 0, ObjectService_Stub::CreateCharacter Warning : a player already used the name
+[2017-09-11 11.55.10] SelectCharacter Error(2): [reborn map no peer], sessionId 15-0200-1007, map_id 20102, line_id 1, pPeer 0
+[2017-09-11 19.16.42] CAccount::AddCharacter : AddCharacter Error: ObjectService:CB_Error, errcode 0, ObjectService_Stub::CreateCharacter Warning : a player already used the name
+[2017-09-12 16.57.47] CAccount::AddCharacter : AddCharacter Error: ObjectService:CB_Error, errcode 0, ObjectService_Stub::CreateCharacter Warning : a player already used the name
+[2017-09-12 16.57.54] CAccount::AddCharacter : AddCharacter Error: ObjectService:CB_Error, errcode 0, ObjectService_Stub::CreateCharacter Warning : a player already used the name
+[2017-09-12 18.36.48] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-12 18.36.50] wmain : Service World Shutdown

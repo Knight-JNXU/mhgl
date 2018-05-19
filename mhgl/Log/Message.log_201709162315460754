@@ -1,0 +1,6 @@
+[2017-09-16 23.15.12] wmain : Service Message Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-16 23.15.12] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-16 23.15.44] LocalRPCManager::DeleteAll Warning : NetObject remains 1
+[2017-09-16 23.15.44] Reuben::Simulation::ObjectManager::Delete : classID 4, objID 42948412, netId 13,8, count 0, total objects 1
+[2017-09-16 23.15.45] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-16 23.15.46] wmain : Service Message Shutdown

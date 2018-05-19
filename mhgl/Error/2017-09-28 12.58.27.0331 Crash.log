@@ -1,0 +1,722 @@
+==============================================================================
+
+Reuben Engine (Version : 0.1.0.309.0)
+Build:		0
+Build Config Flags:	0x0000002F
+
+------------------------------------------------------------------------------
+
+Map Service (Version : 0.5.0.12548.0)
+Build:		0
+
+------------------------------------------------------------------------------
+
+Execute File:		E:\MHGLServer\MapServicePU.exe
+Occurs Time:		2017-09-28 12.58.27.0347
+User Name:		Administrator
+Computer Name:		MYSQL
+Operating system:	Unknown Windows Version (6.1.7601)
+2 processor(s), type 586
+27% memory in use
+0 MBytes physical memory
+2983 MBytes physical memory free
+4094 MBytes paging file
+2836 MBytes paging file free
+2048 MBytes user address space
+1941 MBytes user address space free
+
+------------------------------------------------------------------------------
+
+ERROR: [EXCEPTION_ACCESS_VIOLATION 0xC0000005]
+Module:		C:\Windows\SysWOW64\ntdll.dll
+Occurs at:	0023:77D12A62
+
+The instruction at "0x77D12A62" referenced memory at "0x00310026"
+The memory could not be "Read"
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+	x86 Registers
+----------------------------------------
+
+EAX=00EE5430  EBX=00EE4418  ECX=00310022  EDX=0035002E  ESI=00EE5428
+EDI=003E0000  EBP=0018DD54  ESP=0018DD2C  EIP=77D12A62  FLG=00010246
+CS =0023      DS =002B      ES =002B      SS =002B      FS =0053      GS =002B
+
+----------------------------------------
+	Stack Trace (Manual)
+----------------------------------------
+
+EBP=0x0018DD54 Frame=0x0018DE4C Return=0x77D12CEA Logical_Addr=1000000:FFFFFCEA 
+Module=C:\Windows\SysWOW64\ntdll.dll
+	Param1=0x003E0000 Param2=0x00EE5428 Param3=0x0018DE1C Param4=0x00000000 Param5=0x77C08B0B 
+	Param6=0x00000000 Param7=0x003E0000 Param8=0x00EE4420 Param9=0x00000000 Param10=0x00000000 
+EBP=0x0018DE4C Frame=0x0018DE6C Return=0x77D12BD5 Logical_Addr=1000000:FFFFFBD5 
+Module=C:\Windows\SysWOW64\ntdll.dll
+	Param1=0x00EE4418 Param2=0x00EE4420 Param3=0x00EE4420 Param4=0x0018E600 Param5=0x00EE4420 
+	Param6=0x00EE4418 Param7=0x0018DE80 Param8=0x75C014AD Param9=0x003E0000 Param10=0x00000000 
+EBP=0x0018DE6C Frame=0x0018DE80 Return=0x75C014AD Logical_Addr=1000000:FFFFF4AD 
+Module=C:\Windows\syswow64\kernel32.dll
+	Param1=0x003E0000 Param2=0x00000000 Param3=0x00EE4420 Param4=0x0018DEC8 Param5=0x7C363593 
+	Param6=0x003E0000 Param7=0x00000000 Param8=0x00EE4420 Param9=0x0018E600 Param10=0x0018E62C 
+EBP=0x0018DE80 Frame=0x0018DEC8 Return=0x7C363593 Logical_Addr=1000000:FFFFF593 
+Module=E:\MHGLServer\MSVCR71.dll
+	Param1=0x003E0000 Param2=0x00000000 Param3=0x00EE4420 Param4=0x0018E600 Param5=0x0018E62C 
+	Param6=0x00EE4420 Param7=0x0018E62C Param8=0x00EE4420 Param9=0x00EE4000 Param10=0x0018DE98 
+EBP=0x0018DEC8 Frame=0x00EA5650 Return=0x00BAF418 Logical_Addr=1000000:FFFFF418 
+Module=E:\MHGLServer\MapServicePU.exe
+	Param1=0x00EE4420 Param2=0x031B8DEC Param3=0x049A25CC Param4=0x0018EA94 Param5=0x00000001 
+	Param6=0x00000003 Param7=0x0018DF64 Param8=0x00000000 Param9=0x02000002 Param10=0x0402FA68 
+EBP=0x00EA5650 Frame=0x048EF520 Return=0x048E44F8 Logical_Addr=20000:FFFFF4F8 
+Module=E:\MHGLServer\MapServicePU.exe
+	Param1=0x0000C008 Param2=0x0000000C Param3=0x00002000 Param4=0x00000020 Param5=0x010112F0 
+	Param6=0xFFFFFFFF Param7=0x00000000 Param8=0x00000000 Param9=0x00000000 Param10=0x00000000 
+EBP=0x048EF520 Frame=0x048EF52C Return=0x00BFBBEF Logical_Addr=1000000:FFFFFBEF 
+Module=E:\MHGLServer\MapServicePU.exe
+	Param1=0x0000000A Param2=0x048EF538 Param3=0x00BFBBEF Param4=0x0000F230 Param5=0x048EF544 
+	Param6=0x00000032 Param7=0x0000F230 Param8=0x048EF550 Param9=0x00000000 Param10=0x00000000 
+EBP=0x048EF52C Frame=0x048EF538 Return=0x00BFBBEF Logical_Addr=1000000:FFFFFBEF 
+Module=E:\MHGLServer\MapServicePU.exe
+	Param1=0x0000F230 Param2=0x048EF544 Param3=0x00000032 Param4=0x0000F230 Param5=0x048EF550 
+	Param6=0x00000000 Param7=0x00000000 Param8=0x048EF55C Param9=0x00000000 Param10=0x00000000 
+EBP=0x048EF538 Frame=0x048EF544 Return=0x00000032 Logical_Addr=0000:FFFFF032 
+Module=E:\MHGLServer\MapServicePU.exe
+	Param1=0x0000F230 Param2=0x048EF550 Param3=0x00000000 Param4=0x00000000 Param5=0x048EF55C 
+	Param6=0x00000000 Param7=0x00000000 Param8=0x048EF568 Param9=0x00000000 Param10=0x00000000 
+EBP=0x048EF544 Frame=0x048EF550 Return=0x00000000 Logical_Addr=0000:FFFFF000 
+Module=E:\MHGLServer\MapServicePU.exe
+	Param1=0x00000000 Param2=0x048EF55C Param3=0x00000000 Param4=0x00000000 Param5=0x048EF568 
+	Param6=0x00000000 Param7=0x00000000 Param8=0x048EF574 Param9=0x00000000 Param10=0x00000000 
+
+----------------------------------------
+	Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+77D12A62 00000000 00000000 00000000
+
+----------------------------------------
+	Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x00EB3000  E:\MHGLServer\MapServicePU.exe
+0x77CE0000 - 0x77E60000  C:\Windows\SysWOW64\ntdll.dll
+0x75BF0000 - 0x75D00000  C:\Windows\syswow64\kernel32.dll
+0x773C0000 - 0x77407000  C:\Windows\syswow64\KERNELBASE.dll
+0x73510000 - 0x73542000  C:\Windows\system32\WINMM.dll
+0x76FD0000 - 0x7707C000  C:\Windows\syswow64\msvcrt.dll
+0x75D00000 - 0x75E00000  C:\Windows\syswow64\USER32.dll
+0x75ED0000 - 0x75F60000  C:\Windows\syswow64\GDI32.dll
+0x77330000 - 0x7733A000  C:\Windows\syswow64\LPK.dll
+0x75900000 - 0x7599D000  C:\Windows\syswow64\USP10.dll
+0x75F60000 - 0x76001000  C:\Windows\syswow64\ADVAPI32.dll
+0x75840000 - 0x75859000  C:\Windows\SysWOW64\sechost.dll
+0x777F0000 - 0x778E0000  C:\Windows\syswow64\RPCRT4.dll
+0x75580000 - 0x755E0000  C:\Windows\syswow64\SspiCli.dll
+0x75570000 - 0x7557C000  C:\Windows\syswow64\CRYPTBASE.dll
+0x10000000 - 0x10029000  E:\MHGLServer\lua5.1.dll
+
+----------------------------------------
+	Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 00000000)
+
+00000000: Bad Read Pointer
+Stack: 4096 bytes starting at (ESP = 0018DD30)
+
+| Address  | 0| 1| 2| 3| 4| 5| 6| 7| 8| 9| A| B| C| D| E| F| **************** |
+ 0x0018DD30 18 44 EE 00 00 00 00 00 19 D6 E6 2D 00 00 00 00  .D.........-.... 
+ 0x0018DD40 00 00 00 00 22 00 31 00 00 00 00 00 00 00 00 00  ....".1......... 
+ 0x0018DD50 00 00 00 00 4C DE 18 00 EA 2C D1 77 00 00 3E 00  ....L....,.w..>. 
+ 0x0018DD60 28 54 EE 00 1C DE 18 00 00 00 00 00 0B 8B C0 77  (T.............w 
+ 0x0018DD70 00 00 00 00 00 00 3E 00 20 44 EE 00 00 00 00 00  ......>. D...... 
+ 0x0018DD80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018DD90 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018DDA0 00 00 3E 00 60 26 3E 00 00 00 00 00 1C 00 00 1C  ..>.`&>......... 
+ 0x0018DDB0 00 00 00 00 58 2C 01 01 D8 33 01 01 88 2F 01 01  ....X,...3.../.. 
+ 0x0018DDC0 E0 00 00 00 00 00 FF 00 02 00 00 00 03 00 00 00  ................ 
+ 0x0018DDD0 C0 DE 18 00 01 30 D1 77 38 01 FF 00 DD 2F D1 77  .....0.w8..../.w 
+ 0x0018DDE0 87 8B C0 77 00 00 00 00 00 00 FF 00 30 2A 01 01  ...w........0*.. 
+ 0x0018DDF0 00 00 00 00 00 00 00 00 00 00 1A 00 00 00 00 00  ................ 
+ 0x0018DE00 00 00 00 00 11 A5 D1 77 D8 33 01 01 50 01 FF 00  .......w.3..P... 
+ 0x0018DE10 E4 11 40 77 01 35 40 00 50 01 FF 00 02 02 00 00  ..@w.5@.P....... 
+ 0x0018DE20 00 00 00 00 50 01 00 01 02 00 00 02 00 00 00 00  ....P........... 
+ 0x0018DE30 82 05 01 01 6C DD 18 00 78 D7 18 00 B8 DE 18 00  ....l...x....... 
+ 0x0018DE40 C5 58 D5 77 07 9C 08 00 00 00 00 00 6C DE 18 00  .X.w........l... 
+ 0x0018DE50 D5 2B D1 77 18 44 EE 00 20 44 EE 00 20 44 EE 00  .+.w.D.. D.. D.. 
+ 0x0018DE60 00 E6 18 00 20 44 EE 00 18 44 EE 00 80 DE 18 00  .... D...D...... 
+ 0x0018DE70 AD 14 C0 75 00 00 3E 00 00 00 00 00 20 44 EE 00  ...u..>..... D.. 
+ 0x0018DE80 C8 DE 18 00 93 35 36 7C 00 00 3E 00 00 00 00 00  .....56|..>..... 
+ 0x0018DE90 20 44 EE 00 00 E6 18 00 2C E6 18 00 20 44 EE 00   D......,... D.. 
+ 0x0018DEA0 2C E6 18 00 20 44 EE 00 00 40 EE 00 98 DE 18 00  ,... D...@...... 
+ 0x0018DEB0 94 DE 18 00 84 D7 18 00 0C E1 18 00 E2 38 36 7C  .............86| 
+ 0x0018DEC0 50 F1 39 7C FF FF FF FF 50 56 EA 00 18 F4 BA 00  P.9|....PV...... 
+ 0x0018DED0 20 44 EE 00 EC 8D 1B 03 CC 25 9A 04 94 EA 18 00   D.......%...... 
+ 0x0018DEE0 01 00 00 00 03 00 00 00 64 DF 18 00 00 00 00 00  ........d....... 
+ 0x0018DEF0 02 00 00 02 68 FA 02 04 38 E6 18 00 00 E6 18 00  ....h...8....... 
+ 0x0018DF00 18 00 00 00 00 00 00 00 FF 07 00 00 00 00 3E 00  ..............>. 
+ 0x0018DF10 F8 92 9E 04 00 00 00 00 59 01 00 58 EC DF 18 00  ........Y..X.... 
+ 0x0018DF20 08 A3 9E 04 E0 2F 9F 04 00 00 3E 00 60 FA 02 04  ...../....>.`... 
+ 0x0018DF30 00 00 00 00 2D 00 00 2D F8 92 9E 04 80 FE 02 04  ....-..-........ 
+ 0x0018DF40 30 7E 72 04 38 F5 FB 00 68 01 00 00 00 00 3E 00  0~r.8...h.....>. 
+ 0x0018DF50 00 00 01 00 60 FA 02 04 48 E0 18 00 01 30 D1 77  ....`...H....0.w 
+ 0x0018DF60 38 01 3E 00 DD 2F D1 77 0F B5 C0 77 00 00 00 00  8.>../.w...w.... 
+ 0x0018DF70 00 00 3E 00 68 FA 02 04 60 26 3E 00 90 DF 18 00  ..>.h...`&>..... 
+ 0x0018DF80 00 00 3E 00 60 26 3E 00 13 38 39 7C F0 DF 18 00  ..>.`&>..89|.... 
+ 0x0018DF90 00 93 9E 04 60 26 3E 00 CC CC FB 3F 00 00 3E 00  ....`&>....?..>. 
+ 0x0018DFA0 60 26 3E 00 56 28 39 7C F0 DF 18 00 60 26 3E 00  `&>.V(9|....`&>. 
+ 0x0018DFB0 02 00 00 02 5A 03 00 00 5A 03 00 59 B0 00 00 00  ....Z...Z..Y.... 
+ 0x0018DFC0 BB 0B 00 B0 DA 02 00 00 03 00 00 00 18 25 9D 04  .............%.. 
+ 0x0018DFD0 B0 00 00 00 DA 02 00 00 00 00 00 00 BB 0B 00 B0  ................ 
+ 0x0018DFE0 30 00 00 00 60 26 3E 00 18 25 9D 04 00 00 00 00  0...`&>..%...... 
+ 0x0018DFF0 04 D1 C2 75 D8 2B 9E 64 B8 DF 00 05 EC 51 9E 04  ...u.+.d.....Q.. 
+ 0x0018E000 2C E6 18 00 00 D0 00 05 F4 DF 18 00 B8 DF 00 05  ,............... 
+ 0x0018E010 04 D1 C2 75 B8 2B 9E 64 DC 51 9E 04 44 C8 FB 00  ...u.+.d.Q..D... 
+ 0x0018E020 2C E6 18 00 04 D1 C2 75 AC 2B 9E 64 54 51 9E 04  ,......u.+.dTQ.. 
+ 0x0018E030 44 C8 FB 00 2C E6 18 00 04 D1 C2 75 90 2B 9E 64  D...,......u.+.d 
+ 0x0018E040 04 D1 C2 75 88 2B 9E 64 70 DF 00 05 04 D1 C2 75  ...u.+.dp......u 
+ 0x0018E050 84 2B 9E 64 EC 41 9E 04 44 C8 FB 00 2C E6 18 00  .+.d.A..D...,... 
+ 0x0018E060 04 D1 C2 75 68 2B 9E 64 4C 48 9E 04 44 C8 FB 00  ...uh+.dLH..D... 
+ 0x0018E070 2C E6 18 00 04 D1 C2 75 5C 2B 9E 64 64 41 9E 04  ,......u\+.ddA.. 
+ 0x0018E080 44 C8 FB 00 2C E6 18 00 04 D1 C2 75 40 2B 9E 64  D...,......u@+.d 
+ 0x0018E090 5C 49 9E 04 44 C8 FB 00 2C E6 18 00 00 40 9E 04  \I..D...,....@.. 
+ 0x0018E0A0 8C E0 18 00 5C 49 9E 04 E0 56 EA 00 5C 49 9E 04  ....\I...V..\I.. 
+ 0x0018E0B0 F8 56 EA 00 E0 56 EA 00 94 EA 18 00 72 24 40 00  .V...V......r$@. 
+ 0x0018E0C0 F8 56 EA 00 2C E6 18 00 60 49 9E 04 44 C8 FB 00  .V..,...`I..D... 
+ 0x0018E0D0 18 1C C6 00 2C 79 40 00 70 49 9E 04 E4 E0 18 00  ....,y@.pI...... 
+ 0x0018E0E0 88 EA 18 00 18 1C C6 00 FF FF FF FF 7D E5 BA 00  ............}... 
+ 0x0018E0F0 50 56 EA 00 F8 56 EA 00 30 00 00 00 C8 68 D3 00  PV...V..0....h.. 
+ 0x0018E100 EC 8D 1B 03 2C E6 18 00 80 11 83 64 88 EA 18 00  ....,......d.... 
+ 0x0018E110 0C C9 D0 00 01 00 00 00 00 73 BF 00 E4 E2 3E 00  .........s....>. 
+ 0x0018E120 73 29 C2 75 60 85 EA 00 00 00 00 00 00 00 54 00  s).u`.........T. 
+ 0x0018E130 52 00 00 00 00 00 00 00 68 FA 02 04 00 00 00 00  R.......h....... 
+ 0x0018E140 07 00 00 00 00 00 3E 00 00 00 47 00 49 00 00 00  ......>...G.I... 
+ 0x0018E150 1C 00 00 1C 60 26 3E 00 00 00 00 00 07 00 00 00  ....`&>......... 
+ 0x0018E160 B0 00 00 B0 00 00 50 00 52 00 00 00 02 00 00 00  ......P.R....... 
+ 0x0018E170 03 00 00 00 00 00 00 00 07 00 00 00 30 00 00 00  ............0... 
+ 0x0018E180 00 00 74 00 61 00 72 00 74 00 59 00 00 00 FF 00  ..t.a.r.t.Y..... 
+ 0x0018E190 00 00 00 00 07 00 00 00 00 00 00 00 00 00 54 00  ..............T. 
+ 0x0018E1A0 41 00 00 00 00 00 00 00 60 26 3E 00 00 00 00 00  A.......`&>..... 
+ 0x0018E1B0 07 00 00 00 30 5F EE 00 00 00 65 00 61 00 64 00  ....0_....e.a.d. 
+ 0x0018E1C0 00 00 00 00 00 00 00 00 00 00 00 00 07 00 00 00  ................ 
+ 0x0018E1D0 00 01 00 00 00 00 00 05 10 E1 18 00 00 00 00 00  ................ 
+ 0x0018E1E0 5C E2 18 00 00 00 00 00 07 00 00 00 FE FF FF FF  \............... 
+ 0x0018E1F0 00 00 61 00 78 00 44 00 50 00 00 00 B8 65 27 03  ..a.x.D.P....e'. 
+ 0x0018E200 00 00 00 00 07 00 00 00 B8 65 27 03 00 00 70 00  .........e'...p. 
+ 0x0018E210 64 00 5F 00 73 00 74 00 61 00 00 00 00 00 00 00  d._.s.t.a....... 
+ 0x0018E220 07 00 00 00 6C E2 18 00 00 00 31 00 00 00 3E 00  ....l.....1...>. 
+ 0x0018E230 00 00 00 00 98 35 36 7C 00 00 00 00 07 00 00 00  .....56|........ 
+ 0x0018E240 B8 65 27 03 00 00 70 00 64 00 5F 00 63 00 6F 00  .e'...p.d._.c.o. 
+ 0x0018E250 6E 00 00 00 00 00 00 00 07 00 00 00 B0 E4 18 00  n............... 
+ 0x0018E260 00 00 32 00 00 00 83 64 B0 E4 18 00 03 C7 D0 00  ..2....d........ 
+ 0x0018E270 00 00 00 00 07 00 00 00 14 D2 FB 00 00 00 70 00  ..............p. 
+ 0x0018E280 64 00 5F 00 73 00 74 00 72 00 00 00 00 00 00 00  d._.s.t.r....... 
+ 0x0018E290 07 00 00 00 BB 0B 00 B0 00 00 00 05 44 E5 18 00  ............D... 
+ 0x0018E2A0 0C E5 18 00 FF 07 00 00 00 00 00 00 07 00 00 00  ................ 
+ 0x0018E2B0 00 00 3E 00 00 00 70 00 64 00 5F 00 61 00 67 00  ..>...p.d._.a.g. 
+ 0x0018E2C0 69 00 00 00 00 00 00 00 07 00 00 00 00 00 3E 00  i.............>. 
+ 0x0018E2D0 00 00 00 05 00 00 00 00 01 02 00 03 C0 9D 9E 04  ................ 
+ 0x0018E2E0 00 00 00 00 07 00 00 00 68 FA 02 04 00 00 77 00  ........h.....w. 
+ 0x0018E2F0 64 00 5F 00 73 00 74 00 72 00 00 00 00 00 00 00  d._.s.t.r....... 
+ 0x0018E300 07 00 00 00 38 01 3E 00 00 00 32 00 00 00 C0 77  ....8.>...2....w 
+ 0x0018E310 00 00 00 00 00 00 3E 00 00 00 00 00 07 00 00 00  ......>......... 
+ 0x0018E320 BC 00 00 00 00 00 77 00 64 00 5F 00 63 00 6F 00  ......w.d._.c.o. 
+ 0x0018E330 6E 00 00 00 00 00 00 00 07 00 00 00 D8 00 00 00  n............... 
+ 0x0018E340 00 00 6F 00 6F 00 74 00 00 00 18 00 CC 65 27 03  ..o.o.t......e'. 
+ 0x0018E350 00 00 00 00 07 00 00 00 01 02 00 00 00 00 77 00  ..............w. 
+ 0x0018E360 64 00 5F 00 73 00 74 00 61 00 00 00 00 00 00 00  d._.s.t.a....... 
+ 0x0018E370 07 00 00 00 5A 03 00 00 00 00 6C 00 6F 00 74 00  ....Z.....l.o.t. 
+ 0x0018E380 68 00 00 00 48 28 9E 64 00 00 00 00 07 00 00 00  h...H(.d........ 
+ 0x0018E390 44 28 9E 64 00 00 77 00 64 00 5F 00 73 00 70 00  D(.d..w.d._.s.p. 
+ 0x0018E3A0 72 00 00 00 00 00 00 00 07 00 00 00 44 C8 FB 00  r...........D... 
+ 0x0018E3B0 00 00 31 00 00 00 C2 75 1C 28 9E 64 94 55 9E 04  ..1....u.(.d.U.. 
+ 0x0018E3C0 00 00 00 00 07 00 00 00 04 D1 C2 75 00 00 76 00  ...........u..v. 
+ 0x0018E3D0 61 00 5F 00 61 00 67 00 69 00 00 00 00 00 00 00  a._.a.g.i....... 
+ 0x0018E3E0 07 00 00 00 34 4F 9E 04 00 00 74 00 61 00 72 00  ....4O....t.a.r. 
+ 0x0018E3F0 74 00 58 00 00 00 9E 64 00 00 00 00 07 00 00 00  t.X....d........ 
+ 0x0018E400 38 E5 18 00 00 00 69 00 74 00 5F 00 61 00 67 00  8.....i.t._.a.g. 
+ 0x0018E410 69 00 00 00 00 00 00 00 07 00 00 00 B0 2F 9E 64  i............/.d 
+ 0x0018E420 00 00 61 00 78 00 57 00 63 00 00 00 04 D1 C2 75  ..a.x.W.c......u 
+ 0x0018E430 00 00 00 00 07 00 00 00 44 C8 FB 00 00 00 65 00  ........D.....e. 
+ 0x0018E440 66 00 5F 00 63 00 6F 00 6E 00 00 00 00 00 00 00  f._.c.o.n....... 
+ 0x0018E450 07 00 00 00 F8 56 EA 00 00 00 61 00 78 00 56 00  .....V....a.x.V. 
+ 0x0018E460 50 00 00 00 F8 56 EA 00 00 00 00 00 07 00 00 00  P....V.......... 
+ 0x0018E470 44 C8 FB 00 00 00 74 00 6B 00 5F 00 73 00 74 00  D.....t.k._.s.t. 
+ 0x0018E480 72 00 00 00 00 00 00 00 07 00 00 00 50 56 EA 00  r...........PV.. 
+ 0x0018E490 00 00 61 00 78 00 48 00 50 00 00 00 30 00 00 00  ..a.x.H.P...0... 
+ 0x0018E4A0 00 00 00 00 07 00 00 00 14 D2 FB 00 00 00 00 05  ................ 
+ 0x0018E4B0 78 EA 18 00 0C C9 D0 00 FF FF FF FF 00 00 00 00  x............... 
+ 0x0018E4C0 07 00 00 00 E4 E2 3E 00 00 00 4F 00 4E 00 00 00  ......>...O.N... 
+ 0x0018E4D0 00 00 68 00 6F 00 70 00 00 00 00 00 07 00 00 00  ..h.o.p......... 
+ 0x0018E4E0 00 00 00 00 00 00 00 05 28 D2 FB 00 00 00 00 05  ........(....... 
+ 0x0018E4F0 E4 2E 9E 64 00 00 00 00 07 00 00 00 00 00 00 00  ...d............ 
+ 0x0018E500 00 00 61 00 78 00 53 00 50 00 00 00 00 00 00 00  ..a.x.S.P....... 
+ 0x0018E510 00 00 00 00 07 00 00 00 28 E0 00 05 01 00 00 00  ........(....... 
+ 0x0018E520 C8 25 9A 04 01 01 18 00 CC 25 9A 04 28 57 EA 00  .%.......%..(W.. 
+ 0x0018E530 C8 25 9A 04 14 DC 00 05 28 57 EA 00 00 00 00 00  .%......(W...... 
+ 0x0018E540 50 56 EA 00 00 00 FF 00 00 00 00 00 CC 25 9A 04  PV...........%.. 
+ 0x0018E550 00 00 00 00 45 00 00 00 28 2A 01 01 0E 00 FF 00  ....E...(*...... 
+ 0x0018E560 CC 25 9A 04 F8 56 EA 00 68 5F 9E 04 20 E6 18 00  .%...V..h_.. ... 
+ 0x0018E570 00 00 00 00 14 DC 00 05 CC 25 9A 04 CC 25 9A 04  .........%...%.. 
+ 0x0018E580 00 00 FF 00 CC 25 9A 04 64 E6 18 00 0E 00 00 00  .....%..d....... 
+ 0x0018E590 0E 00 00 00 CC 25 9A 04 00 00 00 00 AC 03 FF 00  .....%.......... 
+ 0x0018E5A0 00 00 FF 00 50 01 FF 00 15 00 00 00 B0 56 EA 00  ....P........V.. 
+ 0x0018E5B0 02 00 00 00 10 DC 00 05 C8 56 EA 00 02 00 00 00  .........V...... 
+ 0x0018E5C0 70 EA 18 00 C1 62 BF 00 D7 63 BF 00 E4 E2 3E 00  p....b...c....>. 
+ 0x0018E5D0 EC 8D 1B 03 60 85 EA 00 61 00 00 00 C8 56 EA 00  ....`...a....V.. 
+ 0x0018E5E0 18 DC 00 05 10 57 EA 00 80 00 00 00 00 00 61 00  .....W........a. 
+ 0x0018E5F0 0E 00 00 00 1C DC 00 05 04 00 00 00 28 57 EA 00  ............(W.. 
+ 0x0018E600 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E610 24 44 EE 00 4C 1D 01 04 01 01 00 00 38 E6 18 00  $D..L.......8... 
+ 0x0018E620 34 5F EE 00 BC 65 27 03 00 00 00 00 52 00 54 00  4_...e'.....R.T. 
+ 0x0018E630 44 C8 FB 00 00 00 00 00 DC E6 18 00 00 00 00 00  D............... 
+ 0x0018E640 00 00 00 00 00 00 00 00 14 DC 00 05 08 02 00 00  ................ 
+ 0x0018E650 14 DC 00 05 74 00 00 00 04 00 00 00 EC 8D 1B 03  ....t........... 
+ 0x0018E660 FE FF FF FF CC 25 9A 04 CC 25 9A 04 88 34 01 01  .....%...%...4.. 
+ 0x0018E670 28 02 00 00 02 00 00 00 00 00 00 00 52 00 00 00  (...........R... 
+ 0x0018E680 00 00 00 00 52 00 00 00 76 E7 18 00 88 34 01 01  ....R...v....4.. 
+ 0x0018E690 00 00 00 01 52 00 08 02 40 E7 18 00 74 E7 18 00  ....R...@...t... 
+ 0x0018E6A0 00 00 00 00 00 00 00 00 00 00 00 00 2C E6 18 00  ............,... 
+ 0x0018E6B0 03 00 00 00 52 00 00 00 C5 58 D5 77 00 00 00 00  ....R....X.w.... 
+ 0x0018E6C0 9B B3 C0 77 44 E6 18 00 EB A1 D1 77 2C EA 18 00  ...wD......w,... 
+ 0x0018E6D0 C5 58 D5 77 00 00 00 00 00 00 00 00 50 E9 18 00  .X.w........P... 
+ 0x0018E6E0 EB A1 D1 77 38 2A 01 01 2D 00 00 00 50 E9 18 00  ...w8*..-...P... 
+ 0x0018E6F0 B9 68 D3 77 08 E7 18 00 76 E7 18 00 00 00 00 00  .h.w....v....... 
+ 0x0018E700 D8 33 01 01 63 A2 D1 77 1C 00 1E 00 76 E7 18 00  .3..c..w....v... 
+ 0x0018E710 02 00 00 00 00 00 00 00 08 00 0A 00 70 A2 D1 77  ............p..w 
+ 0x0018E720 00 00 00 00 08 00 00 00 F0 E9 18 00 52 00 00 00  ............R... 
+ 0x0018E730 08 00 0A 00 70 A2 D1 77 00 00 00 00 76 00 65 00  ....p..w....v.e. 
+ 0x0018E740 45 00 3A 00 5C 00 4D 00 48 00 47 00 4C 00 53 00  E.:.\.M.H.G.L.S. 
+ 0x0018E750 65 00 72 00 76 00 65 00 72 00 5C 00 44 00 61 00  e.r.v.e.r.\.D.a. 
+ 0x0018E760 74 00 61 00 5C 00 53 00 65 00 74 00 74 00 69 00  t.a.\.S.e.t.t.i. 
+ 0x0018E770 6E 00 67 00 5C 00 66 00 69 00 6C 00 65 00 63 00  n.g.\.f.i.l.e.c. 
+ 0x0018E780 6F 00 6E 00 66 00 69 00 67 00 2E 00 69 00 6E 00  o.n.f.i.g...i.n. 
+ 0x0018E790 69 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  i............... 
+ 0x0018E7A0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E7B0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E7C0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E7D0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E7E0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E7F0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+ 0x0018E800 00 00 00 00 54 00 00 00 28 2A 01 01 00 00 FF 00  ....T...(*...... 
+ 0x0018E810 30 2D 01 01 00 00 00 00 00 00 00 00 00 00 00 00  0-.............. 
+ 0x0018E820 00 00 00 00 0D 00 00 00 14 E9 18 00 54 00 00 00  ............T... 
+ 0x0018E830 54 00 00 00 E5 42 D1 77 30 2A 01 01 00 00 00 00  T....B.w0*...... 
+ 0x0018E840 06 34 D1 77 53 BC C0 77 D8 33 01 01 24 04 FF 00  .4.wS..w.3..$... 
+ 0x0018E850 00 00 FF 00 50 01 FF 00 48 2F 01 01 E0 00 00 00  ....P...H/...... 
+ 0x0018E860 50 01 FF 00 02 00 00 00 80 01 FF 00 5C E9 18 00  P...........\... 
+ 0x0018E870 0D 00 00 00 00 01 FF 00 50 01 FF 00 61 00 00 00  ........P...a... 
+ 0x0018E880 00 00 FF 00 28 2A 01 01 00 00 00 00 0D 00 00 0D  ....(*.......... 
+ 0x0018E890 54 00 00 00 D0 2C 01 01 48 2F 01 01 F0 D7 00 01  T....,..H/...... 
+ 0x0018E8A0 68 00 00 00 00 00 FF 00 02 00 00 00 28 2A 01 01  h...........(*.. 
+ 0x0018E8B0 A0 E9 18 00 01 30 D1 77 38 01 FF 00 DD 2F D1 77  .....0.w8..../.w 
+ 0x0018E8C0 E7 BC C0 77 00 00 00 00 00 00 FF 00 30 2A 01 01  ...w........0*.. 
+ 0x0018E8D0 01 00 00 00 00 00 00 00 0A 00 08 00 0E 00 00 00  ................ 
+ 0x0018E8E0 30 2A 01 01 30 2A 01 01 E8 36 01 01 50 01 FF 00  0*..0*...6..P... 
+ 0x0018E8F0 20 05 00 00 00 00 FF 00 D0 33 01 01 00 00 00 00   ........3...... 
+ 0x0018E900 20 05 00 25 50 01 FF 00 E8 36 01 01 C4 00 FF 00   ..%P....6...... 
+ 0x0018E910 30 2A 01 01 00 25 00 00 00 00 FF 00 04 00 00 00  0*...%.......... 
+ 0x0018E920 D0 33 01 01 14 EA 18 00 01 30 D1 77 38 01 FF 00  .3.......0.w8... 
+ 0x0018E930 DD 2F D1 77 53 BF C0 77 00 00 00 00 00 00 FF 00  ./.wS..w........ 
+ 0x0018E940 D8 33 01 01 00 00 00 00 00 00 00 00 18 34 01 01  .3...........4.. 
+ 0x0018E950 38 3A FF 00 00 00 00 00 80 39 FF 00 C4 00 FF 00  8:.......9...... 
+ 0x0018E960 80 39 FF 00 30 2A 01 01 00 00 FF 00 50 01 FF 00  .9..0*......P... 
+ 0x0018E970 61 00 00 00 00 00 00 00 80 39 FF 00 00 00 00 00  a........9...... 
+ 0x0018E980 08 03 00 00 00 00 01 01 82 05 00 00 D8 33 01 01  .............3.. 
+ 0x0018E990 2C EA 18 00 03 00 00 00 07 9C 08 00 82 05 00 00  ,............... 
+ 0x0018E9A0 DD 2F D1 77 D5 2B D1 77 61 00 00 61 02 05 00 00  ./.w.+.wa..a.... 
+ 0x0018E9B0 30 2A 01 01 30 2A 01 01 00 00 00 00 28 2A 01 01  0*..0*......(*.. 
+ 0x0018E9C0 F8 E9 18 00 D8 F3 C0 75 00 00 00 00 80 39 FF 00  .......u.....9.. 
+ 0x0018E9D0 30 2A 01 01 D8 33 01 01 D8 33 01 01 C4 00 FF 00  0*...3...3...... 
+ 0x0018E9E0 00 00 00 00 82 05 00 00 00 00 00 00 FF FF 00 01  ................ 
+ 0x0018E9F0 00 00 00 00 10 28 00 00 3C EA 01 01 34 E9 18 00  .....(..<...4... 
+ 0x0018EA00 D8 33 01 01 E0 F4 18 00 C5 58 D5 77 07 9C 08 00  .3.......X.w.... 
+ 0x0018EA10 FE FF FF FF DD 2F D1 77 D5 2B D1 77 00 00 00 00  ...../.w.+.w.... 
+ 0x0018EA20 D8 33 01 01 D8 33 01 01 25 E0 D0 77 00 00 00 00  .3...3..%..w.... 
+ 0x0018EA30 D0 33 01 01 54 EA 18 00 FF E5 C0 75 00 00 FF 00  .3..T......u.... 
+ 0x0018EA40 00 00 00 00 D8 33 01 01 00 04 00 00 50 28 DD 00  .....3......P(.. 
+ 0x0018EA50 00 00 00 00 88 EA 18 00 44 EA C0 75 80 11 83 64  ........D..u...d 
+ 0x0018EA60 CC E5 18 00 80 EA 18 00 70 60 D1 00 FF FF FF FF  ........p`...... 
+ 0x0018EA70 00 00 00 00 12 6F BF 00 EC 8D 1B 03 E4 E2 3E 00  .....o........>. 
+ 0x0018EA80 80 11 83 64 1C E1 18 00 E0 F4 18 00 0E 64 D1 00  ...d.........d.. 
+ 0x0018EA90 FF FF FF FF 00 00 00 00 41 30 BA 00 DC EC 18 00  ........A0...... 
+ 0x0018EAA0 00 00 00 00 00 00 00 00 03 00 00 00 EC 8D 1B 03  ................ 
+ 0x0018EAB0 EC 8D 1B 03 E0 9F 9D 04 00 00 3E 00 E6 A9 D1 77  ..........>....w 
+ 0x0018EAC0 01 35 40 00 00 00 3E 00 E0 4F 9D 04 00 EB 18 00  .5@...>..O...... 
+ 0x0018EAD0 10 25 9D 04 00 00 3E 00 00 00 00 00 F8 3B 00 00  .%....>......;.. 
+ 0x0018EAE0 FF 07 00 00 00 00 03 04 00 00 00 00 7F 07 00 00  ................ 
+ 0x0018EAF0 C4 00 3E 00 60 26 3E 00 5A 0F 00 00 BA 09 00 00  ..>.`&>.Z....... 
+ 0x0018EB00 10 25 9D 04 00 00 3E 00 E0 9F 9D 04 00 00 00 00  .%....>......... 
+ 0x0018EB10 00 00 3E 00 C4 00 3E 00 00 00 00 00 A0 05 00 00  ..>...>......... 
+ 0x0018EB20 0C EC 18 00 BA 09 00 00 00 00 3E 00 10 25 9D 04  ..........>..%.. 
+ 0x0018EB30 0C EC 18 00 D7 33 D1 77 06 34 D1 77 4B B9 C0 77  .....3.w.4.wK..w 
+ 0x0018EB40 01 00 00 00 00 00 00 00 00 00 3E 00 60 26 3E 00  ..........>.`&>. 
+ 0x0018EB50 60 26 3E 00 00 00 3E 00 48 88 27 03 00 00 00 00  `&>...>.H.'..... 
+ 0x0018EB60 39 03 00 3A 43 00 53 00 30 BC 27 03 01 35 40 00  9..:C.S.0.'..5@. 
+ 0x0018EB70 20 44 EE 00 C8 15 00 00 00 00 3E 00 00 00 00 80   D........>..... 
+ 0x0018EB80 B0 65 27 03 74 EC 18 00 01 30 D1 77 38 01 3E 00  .e'.t....0.w8.>. 
+ 0x0018EB90 DD 2F D1 77 33 B9 C0 77 00 00 00 00 00 00 3E 00  ./.w3..w......>. 
+ 0x0018EBA0 50 88 27 03 B8 65 27 03 08 0E 00 06 00 00 00 00  P.'..e'......... 
+ 0x0018EBB0 26 00 32 00 00 00 00 00 FF 07 00 00 80 19 03 00  &.2............. 
+ 0x0018EBC0 00 00 3E 00 00 00 00 00 F8 3B 00 00 FF 07 00 00  ..>......;...... 
+ 0x0018EBD0 00 00 03 04 B8 65 27 03 7F 07 00 00 B8 65 27 03  .....e'......e'. 
+ 0x0018EBE0 60 26 3E 00 BB 0B 00 00 28 EC 18 00 E0 42 D4 77  `&>.....(....B.w 
+ 0x0018EBF0 00 00 3E 00 10 25 9D 00 00 00 00 00 00 00 3E 00  ..>..%........>. 
+ 0x0018EC00 00 00 00 00 10 25 9D 04 00 00 00 00 01 02 00 03  .....%.......... 
+ 0x0018EC10 F0 58 9D 04 E8 72 9D 04 48 1D 01 04 68 FA 02 04  .X...r..H...h... 
+ 0x0018EC20 00 0C 00 00 00 00 3E 00 00 00 00 00 10 25 9D 04  ......>......%.. 
+ 0x0018EC30 20 ED 18 00 01 30 D1 77 38 01 3E 00 DD 2F D1 77   ....0.w8.>../.w 
+ 0x0018EC40 67 B8 C0 77 00 00 00 00 00 00 3E 00 18 25 9D 04  g..w......>..%.. 
+ 0x0018EC50 01 30 D1 77 38 01 FF 00 DD 2F D1 77 7B B8 C0 77  .0.w8..../.w{..w 
+ 0x0018EC60 00 00 00 00 00 00 FF 00 48 2F 01 01 07 9C 08 00  ........H/...... 
+ 0x0018EC70 FE FF FF FF 00 00 3E 00 60 26 3E 00 50 27 9E 64  ......>.`&>.P'.d 
+ 0x0018EC80 CC 15 9A 04 30 2A 01 01 50 01 FF 00 00 10 9A 04  ....0*..P....... 
+ 0x0018EC90 00 00 FF 00 50 01 FF 00 10 57 EA 00 CC 15 9A 04  ....P....W...... 
+ 0x0018ECA0 03 00 00 00 02 00 00 02 64 ED 18 00 61 00 00 61  ........d...a..a 
+ 0x0018ECB0 0E 00 00 00 50 88 27 03 0C 59 9D 04 03 00 00 00  ....P.'..Y...... 
+ 0x0018ECC0 BC 5E 9D 04 0E 00 00 00 61 00 00 00 E6 32 3C 7C  .^......a....2<| 
+ 0x0018ECD0 2E 00 5C 00 44 00 61 00 74 00 61 00 44 00 61 00  ..\.D.a.t.a.D.a. 
+ 0x0018ECE0 74 00 61 00 5C 00 43 00 53 00 56 00 5C 00 70 00  t.a.\.C.S.V.\.p. 
+ 0x0018ECF0 63 00 5F 00 73 00 74 00 61 00 72 00 74 00 61 00  c._.s.t.a.r.t.a. 
+ 0x0018ED00 74 00 74 00 72 00 69 00 62 00 2E 00 63 00 73 00  t.t.r.i.b...c.s. 
+ 0x0018ED10 76 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  v............... 
+ 0x0018ED20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................ 
+
+----------------------------------------
+	Loaded Modules Details
+----------------------------------------
+
+Module 1
+E:\MHGLServer\MapServicePU.exe
+Image Base: 0x00400000 Image Size: 0x00AB3000
+Checksum:   0x00000000 Time Stamp: 0x4EA92192
+File Size:  11165696   File Time:  2/12/2011 06:43:50
+Version Information:
+Retrieve Version Information Failed!!!!
+
+Module 2
+E:\MHGLServer\lua5.1.dll
+Image Base: 0x10000000 Image Size: 0x00029000
+Checksum:   0x000308C3 Time Stamp: 0x48B6E895
+File Size:  167936     File Time:  1/7/2017 08:11:53
+Version Information:
+	Company:	
+	Product:	
+	FileDesc:	
+	FileVer:	5.1.4.0
+	ProdVer:	5.1.4.0
+
+Module 3
+E:\MHGLServer\dbghelp.dll
+Image Base: 0x68CC0000 Image Size: 0x000A1000
+Checksum:   0x000A32FC Time Stamp: 0x411AC4BF
+File Size:  640000     File Time:  2/12/2011 06:43:48
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows Image Helper
+	FileVer:	5.1.2600.2180
+	ProdVer:	5.1.2600.2180
+
+Module 4
+C:\Windows\system32\WINMM.dll
+Image Base: 0x73510000 Image Size: 0x00032000
+Checksum:   0x0003EE32 Time Stamp: 0x56F5847E
+File Size:  194048     File Time:  20/6/2017 13:22:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	MCI API DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 5
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCR80.dll
+Image Base: 0x743D0000 Image Size: 0x0009B000
+Checksum:   0x000A606B Time Stamp: 0x4CA2B271
+File Size:  632656     File Time:  21/11/2010 03:24:06
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Visual Studio® 2005
+	FileDesc:	Microsoft® C Runtime Library
+	FileVer:	8.0.50727.4940
+	ProdVer:	8.0.50727.4940
+
+Module 6
+C:\Windows\system32\VERSION.dll
+Image Base: 0x74590000 Image Size: 0x00009000
+Checksum:   0x00006984 Time Stamp: 0x56F58469
+File Size:  21504      File Time:  20/6/2017 13:22:02
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Version Checking and File Installation Libraries
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 7
+C:\Windows\syswow64\CRYPTBASE.dll
+Image Base: 0x75570000 Image Size: 0x0000C000
+Checksum:   0x000184B2 Time Stamp: 0x595F9F0C
+File Size:  36352      File Time:  7/7/2017 14:47:40
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Base cryptographic API DLL
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 8
+C:\Windows\syswow64\SspiCli.dll
+Image Base: 0x75580000 Image Size: 0x00060000
+Checksum:   0x0001840C Time Stamp: 0x595FA490
+File Size:  96768      File Time:  7/7/2017 15:11:12
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Security Support Provider Interface
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 9
+C:\Windows\SysWOW64\sechost.dll
+Image Base: 0x75840000 Image Size: 0x00019000
+Checksum:   0x0001B5D1 Time Stamp: 0x56F58445
+File Size:  91648      File Time:  20/6/2017 13:22:10
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Host for SCM/SDDL/LSA Lookup APIs
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 10
+C:\Windows\syswow64\USP10.dll
+Image Base: 0x75900000 Image Size: 0x0009D000
+Checksum:   0x000A2EA6 Time Stamp: 0x5915F8FA
+File Size:  629760     File Time:  20/6/2017 14:12:13
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft(R) Uniscribe Unicode script processor
+	FileDesc:	Uniscribe Unicode script processor
+	FileVer:	1.626.7601.23807
+	ProdVer:	1.626.7601.23807
+
+Module 11
+C:\Windows\system32\IMM32.DLL
+Image Base: 0x759A0000 Image Size: 0x00060000
+Checksum:   0x0002D2A4 Time Stamp: 0x56F5847D
+File Size:  119808     File Time:  20/6/2017 13:22:37
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Multi-User Windows IMM32 API Client DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 12
+C:\Windows\syswow64\MSCTF.dll
+Image Base: 0x75AB0000 Image Size: 0x000CD000
+Checksum:   0x000DA8B3 Time Stamp: 0x57FD0304
+File Size:  829952     File Time:  20/6/2017 14:12:13
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	MSCTF 
+	FileVer:	6.1.7601.23572
+	ProdVer:	6.1.7601.23572
+
+Module 13
+C:\Windows\syswow64\SHLWAPI.dll
+Image Base: 0x75B80000 Image Size: 0x00057000
+Checksum:   0x00058D59 Time Stamp: 0x56F58436
+File Size:  350720     File Time:  20/6/2017 13:22:10
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 14
+C:\Windows\syswow64\kernel32.dll
+Image Base: 0x75BF0000 Image Size: 0x00110000
+Checksum:   0x0011DF40 Time Stamp: 0x595FA535
+File Size:  1114112    File Time:  7/7/2017 15:11:12
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows NT 
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 15
+C:\Windows\syswow64\USER32.dll
+Image Base: 0x75D00000 Image Size: 0x00100000
+Checksum:   0x000D565A Time Stamp: 0x58249E1C
+File Size:  833024     File Time:  20/6/2017 14:12:28
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23594
+	ProdVer:	6.1.7601.23594
+
+Module 16
+C:\Windows\syswow64\NSI.dll
+Image Base: 0x75E00000 Image Size: 0x00006000
+Checksum:   0x00003F67 Time Stamp: 0x56F58416
+File Size:  8704       File Time:  20/6/2017 13:22:28
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	NSI User-mode interface DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 17
+C:\Windows\syswow64\GDI32.dll
+Image Base: 0x75ED0000 Image Size: 0x00090000
+Checksum:   0x00053BF8 Time Stamp: 0x5915F8E8
+File Size:  313344     File Time:  20/6/2017 14:12:30
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	GDI Client DLL
+	FileVer:	6.1.7601.23807
+	ProdVer:	6.1.7601.23807
+
+Module 18
+C:\Windows\syswow64\ADVAPI32.dll
+Image Base: 0x75F60000 Image Size: 0x000A1000
+Checksum:   0x000A03B1 Time Stamp: 0x595FA480
+File Size:  644096     File Time:  7/7/2017 15:10:46
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 19
+C:\Windows\syswow64\WS2_32.dll
+Image Base: 0x76010000 Image Size: 0x00035000
+Checksum:   0x00035877 Time Stamp: 0x57334D8C
+File Size:  206336     File Time:  20/6/2017 13:56:29
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows Socket 2.0 32 
+	FileVer:	6.1.7601.23451
+	ProdVer:	6.1.7601.23451
+
+Module 20
+C:\Windows\syswow64\SHELL32.dll
+Image Base: 0x761F0000 Image Size: 0x00C4C000
+Checksum:   0x00C4E76A Time Stamp: 0x59132DF1
+File Size:  12880896   File Time:  20/6/2017 14:12:28
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows 
+	FileVer:	6.1.7601.23806
+	ProdVer:	6.1.7601.23806
+
+Module 21
+C:\Windows\syswow64\msvcrt.dll
+Image Base: 0x76FD0000 Image Size: 0x000AC000
+Checksum:   0x000B65C4 Time Stamp: 0x56F583CC
+File Size:  689664     File Time:  20/6/2017 13:22:14
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows NT CRT DLL
+	FileVer:	7.0.7601.23403
+	ProdVer:	6.1.8638.23403
+
+Module 22
+C:\Windows\syswow64\LPK.dll
+Image Base: 0x77330000 Image Size: 0x0000A000
+Checksum:   0x0000CD7D Time Stamp: 0x5915F8E8
+File Size:  25600      File Time:  20/6/2017 14:12:30
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Language Pack
+	FileVer:	6.1.7601.23807
+	ProdVer:	6.1.7601.23807
+
+Module 23
+C:\Windows\syswow64\KERNELBASE.dll
+Image Base: 0x773C0000 Image Size: 0x00047000
+Checksum:   0x0004E986 Time Stamp: 0x595FA536
+File Size:  275456     File Time:  7/7/2017 15:11:12
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows NT 
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 24
+C:\Windows\syswow64\PSAPI.DLL
+Image Base: 0x77570000 Image Size: 0x00005000
+Checksum:   0x0000CCD3 Time Stamp: 0x4A5BDACE
+File Size:  6144       File Time:  14/7/2009 01:16:12
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Process Status Helper
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 25
+C:\Windows\syswow64\RPCRT4.dll
+Image Base: 0x777F0000 Image Size: 0x000F0000
+Checksum:   0x000AB263 Time Stamp: 0x595FA490
+File Size:  666112     File Time:  7/7/2017 15:11:12
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 26
+C:\Windows\SysWOW64\ntdll.dll
+Image Base: 0x77CE0000 Image Size: 0x00180000
+Checksum:   0x00142545 Time Stamp: 0x595FA490
+File Size:  1314112    File Time:  7/7/2017 15:13:31
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	NT 
+	FileVer:	6.1.7601.23864
+	ProdVer:	6.1.7601.23864
+
+Module 27
+E:\MHGLServer\MSVCR71.dll
+Image Base: 0x7C360000 Image Size: 0x00056000
+Checksum:   0x0005BF56 Time Stamp: 0x44B451E8
+File Size:  348160     File Time:  1/7/2017 08:12:03
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Visual Studio .NET
+	FileDesc:	Microsoft® C Runtime Library
+	FileVer:	7.10.6030.0
+	ProdVer:	7.10.6030.0
+
+Module 28
+E:\MHGLServer\MSVCP71.dll
+Image Base: 0x7C3C0000 Image Size: 0x0007C000
+Checksum:   0x00085B26 Time Stamp: 0x44B451ED
+File Size:  503808     File Time:  2/12/2011 06:43:50
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Visual Studio .NET
+	FileDesc:	Microsoft® C++ Runtime Library
+	FileVer:	7.10.6030.0
+	ProdVer:	7.10.6030.0
+
+=========[End of E:\MHGLServer\Error\2017-09-28 12.58.27.0331 Crash.log]=========

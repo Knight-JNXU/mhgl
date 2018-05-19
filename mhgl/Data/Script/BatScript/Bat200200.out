@@ -1,0 +1,51 @@
+local R1 = math.random(1,100);
+local R2 = math.random(100,2000);
+local Money = R2;
+local NeedExtendTurn = true;
+
+function OnInitBatPart(Bat)
+
+end
+
+function OnBatChooseNoAns(Bat, nTurn)
+
+end
+
+function OnBatChooseAnsC1(Bat, nTurn)
+end
+
+function OnBatChooseAnsC2(Bat, nTurn)
+end
+
+function OnPreTurnPart(Bat, nTurn, pActor)
+end
+
+function OnTurnEndPart(Bat, nTurn)                     
+    if ( Bat:LuaNoMobExist() == true ) then          
+		if (R1 >= 30)  and  (R1 <= 75 )then 
+			Bat:LuaBatSay("player", string.format("\#P战斗信息\#W：在\#Y金钱帮帮众\#W身上搜到\#G%d\#W两和\#G藏宝图\#W",Money),"npc", false, 100000);
+		else
+			Bat:LuaBatSay("player", string.format("\#P战斗信息\#W：在\#Y金钱帮帮众\#W身上搜到\#G%d\#W两",Money),"npc", false, 100000);		
+	end
+end
+
+function OnMobCmdPart(Bat, nTurn, pActor, MobHp, MobSp)
+
+end
+
+function OnPlayerCmdPart(Bat, nTurn, pActor, PlayerHp, PlayerSp)
+
+end
+
+function OnWinPart(Bat, nTurn)
+	if  R1 >= 30  and  R1 <= 75 then 
+		Bat:LuaAddItem("player", 51074, 1);
+		Bat:LuaAddGameMoney("player",R2);
+	else
+		Bat:LuaAddGameMoney("player",R2);		
+	end
+end
+
+function OnLosePart(Bat, nTurn)
+
+end

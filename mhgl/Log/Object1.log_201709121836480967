@@ -1,0 +1,275 @@
+[2017-09-09 22.56.45] wmain : Service Object1 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-09 22.56.45] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-10 01.59.43] DoCreatePet : CreatePet DB_FAILED: pet_id 244 not found in resource
+[2017-09-10 01.59.43] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPetAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPetAccessor DB Error: hr 0x00000001: 
+[2017-09-11 14.59.11] ObjectService_Stub::CreateSkillList Error : session_id 15-9936-2160, errcode -2147217873, QueueGetSkills DB Error: 
+Microsoft SQL Native Client:
+[2017-09-11 15.03.31] ObjectService_Stub::CreateSkillList Error : session_id 15-9936-2160, errcode -2147217873, QueueGetSkills DB Error: 
+Microsoft SQL Native Client:
+[2017-09-11 15.05.30] ObjectService_Stub::CreateSkillList Error : session_id 15-9936-2160, errcode -2147217873, QueueGetSkills DB Error: 
+Microsoft SQL Native Client:
+[2017-09-11 15.11.51] DoCreatePartner : CreatePartner DB_FAILED: mob_id 996 not found in resource
+[2017-09-11 15.11.51] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.11.53] DoCreatePartner : CreatePartner DB_FAILED: mob_id 995 not found in resource
+[2017-09-11 15.11.53] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.11.56] DoCreatePartner : CreatePartner DB_FAILED: mob_id 996 not found in resource
+[2017-09-11 15.11.56] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.12.00] DoCreatePartner : CreatePartner DB_FAILED: mob_id 888 not found in resource
+[2017-09-11 15.12.00] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.12.02] DoCreatePartner : CreatePartner DB_FAILED: mob_id 889 not found in resource
+[2017-09-11 15.12.02] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.12.08] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1111 not found in resource
+[2017-09-11 15.12.08] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.13.34] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1111 not found in resource
+[2017-09-11 15.13.34] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.13.55] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1020 not found in resource
+[2017-09-11 15.13.55] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.16.46] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1999 not found in resource
+[2017-09-11 15.16.46] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.16.47] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1998 not found in resource
+[2017-09-11 15.16.47] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.20.09] DoCreatePartner : CreatePartner DB_FAILED: mob_id 3000 not found in resource
+[2017-09-11 15.20.09] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.20.12] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2999 not found in resource
+[2017-09-11 15.20.12] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.20.42] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2899 not found in resource
+[2017-09-11 15.20.42] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.20.48] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2900 not found in resource
+[2017-09-11 15.20.48] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.20.50] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2899 not found in resource
+[2017-09-11 15.20.50] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.21.22] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2830 not found in resource
+[2017-09-11 15.21.22] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.21.25] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2840 not found in resource
+[2017-09-11 15.21.25] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.21.29] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2830 not found in resource
+[2017-09-11 15.21.29] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.21.43] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2830 not found in resource
+[2017-09-11 15.21.43] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.21.50] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2899 not found in resource
+[2017-09-11 15.21.50] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.21.55] DoCreatePartner : CreatePartner DB_FAILED: mob_id 2830 not found in resource
+[2017-09-11 15.21.55] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.23.47] DoCreatePartner : CreatePartner DB_FAILED: mob_id 4000 not found in resource
+[2017-09-11 15.23.47] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.23.50] DoCreatePartner : CreatePartner DB_FAILED: mob_id 3999 not found in resource
+[2017-09-11 15.23.50] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.24.06] DoCreatePartner : CreatePartner DB_FAILED: mob_id 4000 not found in resource
+[2017-09-11 15.24.06] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.24.19] DoCreatePartner : CreatePartner DB_FAILED: mob_id 5000 not found in resource
+[2017-09-11 15.24.19] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.24.48] DoCreatePartner : CreatePartner DB_FAILED: mob_id 6001 not found in resource
+[2017-09-11 15.24.48] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.24.50] DoCreatePartner : CreatePartner DB_FAILED: mob_id 60001 not found in resource
+[2017-09-11 15.24.50] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.24.57] DoCreatePartner : CreatePartner DB_FAILED: mob_id 60022 not found in resource
+[2017-09-11 15.24.57] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.00] DoCreatePartner : CreatePartner DB_FAILED: mob_id 50066 not found in resource
+[2017-09-11 15.25.00] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.02] DoCreatePartner : CreatePartner DB_FAILED: mob_id 50022 not found in resource
+[2017-09-11 15.25.02] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.05] DoCreatePartner : CreatePartner DB_FAILED: mob_id 50001 not found in resource
+[2017-09-11 15.25.05] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.23] DoCreatePartner : CreatePartner DB_FAILED: mob_id 611 not found in resource
+[2017-09-11 15.25.23] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.27] DoCreatePartner : CreatePartner DB_FAILED: mob_id 603 not found in resource
+[2017-09-11 15.25.27] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.45] DoCreatePartner : CreatePartner DB_FAILED: mob_id 599 not found in resource
+[2017-09-11 15.25.45] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.46] DoCreatePartner : CreatePartner DB_FAILED: mob_id 588 not found in resource
+[2017-09-11 15.25.46] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.25.49] DoCreatePartner : CreatePartner DB_FAILED: mob_id 577 not found in resource
+[2017-09-11 15.25.49] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.28.36] DoCreatePartner : CreatePartner DB_FAILED: mob_id 700 not found in resource
+[2017-09-11 15.28.36] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.28.39] DoCreatePartner : CreatePartner DB_FAILED: mob_id 650 not found in resource
+[2017-09-11 15.28.39] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.31] DoCreatePartner : CreatePartner DB_FAILED: mob_id 5000 not found in resource
+[2017-09-11 15.31.31] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.35] DoCreatePartner : CreatePartner DB_FAILED: mob_id 50001 not found in resource
+[2017-09-11 15.31.35] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.37] DoCreatePartner : CreatePartner DB_FAILED: mob_id 5000001 not found in resource
+[2017-09-11 15.31.37] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.40] DoCreatePartner : CreatePartner DB_FAILED: mob_id 500001 not found in resource
+[2017-09-11 15.31.40] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.44] DoCreatePartner : CreatePartner DB_FAILED: mob_id 60001 not found in resource
+[2017-09-11 15.31.44] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.46] DoCreatePartner : CreatePartner DB_FAILED: mob_id 600001 not found in resource
+[2017-09-11 15.31.46] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.31.50] DoCreatePartner : CreatePartner DB_FAILED: mob_id 3536 not found in resource
+[2017-09-11 15.31.50] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.40.19] DoCreatePartner : CreatePartner DB_FAILED: mob_id 200001 not found in resource
+[2017-09-11 15.40.19] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 15.40.31] DoCreatePartner : CreatePartner DB_FAILED: mob_id 4568 not found in resource
+[2017-09-11 15.40.31] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.01.41] ObjectService_Stub::CreateSkillList Error : session_id 15-9936-2160, errcode -2147217873, QueueGetSkills DB Error: 
+Microsoft SQL Native Client:
+[2017-09-11 16.08.13] DoCreatePartner : CreatePartner DB_FAILED: mob_id 654 not found in resource
+[2017-09-11 16.08.13] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.08.41] DoCreatePartner : CreatePartner DB_FAILED: mob_id 567 not found in resource
+[2017-09-11 16.08.41] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.08.44] DoCreatePartner : CreatePartner DB_FAILED: mob_id 568 not found in resource
+[2017-09-11 16.08.44] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.08.54] DoCreatePartner : CreatePartner DB_FAILED: mob_id 569 not found in resource
+[2017-09-11 16.08.54] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.08.56] DoCreatePartner : CreatePartner DB_FAILED: mob_id 570 not found in resource
+[2017-09-11 16.08.56] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.08.58] DoCreatePartner : CreatePartner DB_FAILED: mob_id 599 not found in resource
+[2017-09-11 16.08.58] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.05] DoCreatePartner : CreatePartner DB_FAILED: mob_id 602 not found in resource
+[2017-09-11 16.09.05] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.08] DoCreatePartner : CreatePartner DB_FAILED: mob_id 602 not found in resource
+[2017-09-11 16.09.08] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.22] DoCreatePartner : CreatePartner DB_FAILED: mob_id 610 not found in resource
+[2017-09-11 16.09.22] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.24] DoCreatePartner : CreatePartner DB_FAILED: mob_id 650 not found in resource
+[2017-09-11 16.09.24] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.25] DoCreatePartner : CreatePartner DB_FAILED: mob_id 620 not found in resource
+[2017-09-11 16.09.25] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.27] DoCreatePartner : CreatePartner DB_FAILED: mob_id 680 not found in resource
+[2017-09-11 16.09.27] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.28] DoCreatePartner : CreatePartner DB_FAILED: mob_id 644 not found in resource
+[2017-09-11 16.09.28] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.30] DoCreatePartner : CreatePartner DB_FAILED: mob_id 652 not found in resource
+[2017-09-11 16.09.30] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.34] DoCreatePartner : CreatePartner DB_FAILED: mob_id 685 not found in resource
+[2017-09-11 16.09.34] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.36] DoCreatePartner : CreatePartner DB_FAILED: mob_id 701 not found in resource
+[2017-09-11 16.09.36] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.38] DoCreatePartner : CreatePartner DB_FAILED: mob_id 702 not found in resource
+[2017-09-11 16.09.38] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 16.09.39] DoCreatePartner : CreatePartner DB_FAILED: mob_id 705 not found in resource
+[2017-09-11 16.09.39] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.35.37] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1015 not found in resource
+[2017-09-11 17.35.37] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.35.47] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1014 not found in resource
+[2017-09-11 17.35.47] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.35.51] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1099 not found in resource
+[2017-09-11 17.35.51] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.36.18] DoCreatePartner : CreatePartner DB_FAILED: mob_id 1450 not found in resource
+[2017-09-11 17.36.18] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.37.49] DoCreatePartner : CreatePartner DB_FAILED: mob_id 9999 not found in resource
+[2017-09-11 17.37.49] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.39.10] DoCreatePartner : CreatePartner DB_FAILED: mob_id 100009 not found in resource
+[2017-09-11 17.39.10] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.40.10] DoCreatePartner : CreatePartner DB_FAILED: mob_id 10150 not found in resource
+[2017-09-11 17.40.10] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.40.14] DoCreatePartner : CreatePartner DB_FAILED: mob_id 10130 not found in resource
+[2017-09-11 17.40.14] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.40.15] DoCreatePartner : CreatePartner DB_FAILED: mob_id 10120 not found in resource
+[2017-09-11 17.40.15] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.40.38] DoCreatePartner : CreatePartner DB_FAILED: mob_id 200001 not found in resource
+[2017-09-11 17.40.38] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.41.11] DoCreatePartner : CreatePartner DB_FAILED: mob_id 40001 not found in resource
+[2017-09-11 17.41.11] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-11 17.41.16] DoCreatePartner : CreatePartner DB_FAILED: mob_id 40002 not found in resource
+[2017-09-11 17.41.16] Cdbo<class ATL::CCommand<class ATL::CAccessor<class CdboPartnerAccessor>,class ATL::CRowset,class ATL::CNoMultipleResults> >::ShowError : CdboPartnerAccessor DB Error: hr 0x00000001: 
+[2017-09-12 18.36.48] LocalRPCManager::DeleteAll Warning : NetObject remains 106
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34697084
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34698384
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46971592
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46973932
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46976792
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46979132
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46981472
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46983032
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46982512
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46983552
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46985632
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46985112
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46982772
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46986412
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60862224
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46980692
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60863784
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60863264
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34700984
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46981992
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34698124
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46972632
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46978612
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60865084
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34697864
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34698904
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34699424
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60864304
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60861444
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60862744
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46985892
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46978872
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46980432
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46980172
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46987452
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46974452
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34699164
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46982252
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46978092
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46977312
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60860924
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34700464
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46984072
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46980952
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34698644
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34699684
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46983292
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34700204
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46974712
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46977832
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46977052
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60865604
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46976532
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60867164
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60860664
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60870024
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46975752
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60860404
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46974972
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60865344
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46983812
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60872104
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60870804
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46984592
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60866644
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46987712
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60871844
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60868984
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60870544
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60862484
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60864564
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60866904
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46979652
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46986672
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46972372
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46976272
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60863524
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46973672
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60867944
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60873664
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46981212
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60861704
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46976012
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60865864
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60868204
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60866124
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60873404
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 60864824, netId 12,11276, total objects 228
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34700724
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 46986152, netId 12,11463, total objects 227
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 34697604
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 34699944, netId 12,11616, total objects 226
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46972112
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 60874184, netId 12,11810, total objects 225
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60875744
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 60873144, netId 12,11976, total objects 224
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60869764
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60879124
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60878864
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 60880164, netId 12,12313, total objects 223
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60881204
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 60882504, netId 12,12383, total objects 222
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60876004
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 60878084, netId 12,12405, total objects 221
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60875224
+[2017-09-12 18.36.48] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 60885104
+[2017-09-12 18.36.48] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-12 18.36.48] wmain : Service Object1 Shutdown

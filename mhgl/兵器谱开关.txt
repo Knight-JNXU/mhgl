@@ -1,0 +1,6 @@
+打开Server\Config里面world.ini文件
+然后在里面查找一个参数
+OpenWeaponPointsRank
+如果将这个参数设置为 OpenWeaponPointsRank = 1 那么此时就是将兵器谱开启 
+
+如果将这个参数设置为 OpenWeaponPointsRank = 0 那么此时就是将兵器谱关闭 

@@ -1,0 +1,26 @@
+dofile('Data/Script/Quest10030_Item70006.out')
+function GF_Item30007()                                  -- 王府地形图
+	local G_Flag10030  = GDS.GetFlag("player", 10030);
+	local G_Quest10030 = GDS.GetQuest("player", 10030);
+	local G_MapId = GDS.GetMapId("player");
+	local G_MapX = GDS.GetMapX("player");
+	local G_MapY = GDS.GetMapY("player");
+	
+	if G_Flag10030 == 5 or G_Flag10030 == 21 then
+		local G_TargetMOB = 2;
+		if ( G_Quest10030 ~= nil ) then
+			G_TargetMOB = G_Quest10030:GetTargetMobNum(1);      --王府巡逻卫兵
+		end
+
+		if (G_MapId == 400) and math.abs(G_MapX - 95) <= 5 and math.abs(G_MapY - 110) <= 5 then
+			if   G_TargetMOB == 1 then 
+				GF_Quest10030_Item70006(1)
+			else G_TargetMOB == 0 then
+				GDS.ShowHint("player", "不能名目张胆的在这里走动，去弄一套卫兵的衣服穿上才行……");
+			end
+		else
+			GDS.ShowHint("player", "平南王府宝库就在\#P京城南郊\#P（95.110）附近，赶紧去吧。");
+		end
+	end
+end
+GF_Item30007();

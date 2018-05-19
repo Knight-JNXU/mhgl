@@ -1,0 +1,4 @@
+[2017-09-01 14.08.37] wmain : Service World Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-01 14.08.37] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-01 18.05.40] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-01 18.05.42] wmain : Service World Shutdown

@@ -1,0 +1,31 @@
+[2017-09-28 15.12.03] wmain : Service Proxy1 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-28 15.12.03] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-28 15.54.47] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56080044
+[2017-09-28 15.54.51] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56077404
+[2017-09-28 15.54.54] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56079384
+[2017-09-28 15.54.55] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56080968
+[2017-09-28 15.54.55] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56081232
+[2017-09-28 17.14.35] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56076348
+[2017-09-28 17.14.36] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196481716
+[2017-09-28 18.14.17] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196482772
+[2017-09-28 18.14.17] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196482244
+[2017-09-28 19.48.56] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196481188
+[2017-09-28 19.48.59] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56077404
+[2017-09-28 19.49.02] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56081232
+[2017-09-28 19.49.02] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56081364
+[2017-09-28 19.49.03] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56077272
+[2017-09-29 00.02.20] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56079384
+[2017-09-29 00.02.22] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196480924
+[2017-09-29 00.02.23] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56081232
+[2017-09-29 00.02.27] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196479472
+[2017-09-29 00.02.27] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56077272
+[2017-09-29 00.18.29] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196481980
+[2017-09-29 00.27.16] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196477228
+[2017-09-29 01.31.50] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56077272
+[2017-09-29 01.32.19] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 55811672
+[2017-09-29 02.33.39] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196480792
+[2017-09-29 02.33.39] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 56081892
+[2017-09-29 02.33.40] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196484488
+[2017-09-29 02.33.41] Reuben::Network::IOCPCModel::PImpl::WorkerProc : connection closed, ErrorCode 121, NumberOfBytesTransferred 0, SocketID 196479340
+[2017-09-29 04.36.51] ProxyManager::ProcessOutgoing Error : invalid rpc_id, session_id 00-7295-0000, rpc_id 7633
+[2017-09-29 04.37.03] wmain : Service Proxy1 Shutdown

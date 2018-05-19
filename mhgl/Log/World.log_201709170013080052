@@ -1,0 +1,5 @@
+[2017-09-17 00.12.34] wmain : Service World Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-17 00.12.34] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-17 00.12.59] SelectCharacter Error(2): [reborn map no peer], sessionId 15-8748-9087, map_id 20102, line_id 1, pPeer 0
+[2017-09-17 00.13.06] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-17 00.13.08] wmain : Service World Shutdown

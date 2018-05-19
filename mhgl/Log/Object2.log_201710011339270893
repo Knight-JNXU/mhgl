@@ -1,0 +1,25 @@
+[2017-09-30 22.32.30] wmain : Service Object2 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-30 22.32.30] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+[2017-10-01 13.39.27] LocalRPCManager::DeleteAll Warning : NetObject remains 1
+[2017-10-01 13.39.27] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 77035236
+[2017-10-01 13.39.27] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-10-01 13.39.27] wmain : Service Object2 Shutdown

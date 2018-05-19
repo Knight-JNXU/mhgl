@@ -1,0 +1,4 @@
+﻿"npc_id","npc_type","pre_name","mid_name","pos_name","bFaction","faction","job","sex","direction","appearTime","squad","minLackey","maxLackey","script","shop_id","quest_id","exp","money","model","image","dropitemcsv","battleScript"
+"1","2","0","萧少英","0","0","0","1","1","0","0","4","2","4","1","0","0","100","100","d20016_t001"
+"2","2","0","钟0骨","0","0","0","1","0","0","0","4","2","4","3","0","0","200","200","d20068_t001"
+"3","2","0","粉燕子","0","0","0","1","0","0","0","4","2","4","3","0","0","300","300","d20073_t002"

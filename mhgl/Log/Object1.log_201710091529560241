@@ -1,0 +1,147 @@
+[2017-10-09 00.28.31] wmain : Service Object1 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-10-09 00.28.31] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-10-09 15.29.56] LocalRPCManager::DeleteAll Warning : NetObject remains 142
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2389136
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2389656
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51351752
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51352792
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51353312
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51354872
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51359812
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51356432
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2390956
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51357992
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51355132
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51355652
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51354352
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2388876
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51363972
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51365532
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51367352
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51356952
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51367872
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62790820
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51366572
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62792640
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62792380
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51367612
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62793940
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62791080
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62793160
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51356172
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62795760
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51363452
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51355392
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2391216
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51357212
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62792900
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62791600
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62794980
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62796020
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62796540
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51359292
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51360592
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2390176
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62796800
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62798360
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62792120
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62797840
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62800440
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62803820
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62804080
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62795500
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62800700
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62805380
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62805120
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62801220
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62807460
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62809280
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62805640
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62807980
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62807200
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62799920
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62803300
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62793420, netId 12,5392, total objects 362
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51356692
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62791340
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51362932
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2391476
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51361892
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 51360332, netId 12,5664, total objects 361
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51361372
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 2388356, netId 12,5766, total objects 360
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62806420
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51352272
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 51355912, netId 12,5911, total objects 359
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51359552
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51360852
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62797060, netId 12,6010, total objects 358
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51354612
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51361632
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62793680
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2389396
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62799660
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62805900
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62810580, netId 12,6148, total objects 357
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62812140
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62811620
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62812660
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62813440
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62814220
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62816040
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62813180
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62811880
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62816300
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62815520
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51353052
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51366832
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2388096
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 51365012, netId 12,6430, total objects 356
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62816560
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51366312
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 2391736, netId 12,6582, total objects 355
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51366052
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 51361112, netId 12,6643, total objects 354
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51364232
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62800960
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62811100
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62798880, netId 12,6777, total objects 353
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62815000
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 51352012, netId 12,6796, total objects 352
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62803040
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62814740
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62802000
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51357732
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62817340
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62812920
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62820200
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62818120
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62821760
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62798620
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62820980
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62821240, netId 12,7323, total objects 351
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62817860
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62822540
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 51353832
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62820460
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62818380
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62817600
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62804600
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62818900
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62818640, netId 12,7440, total objects 350
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62819940
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62819420
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62823320
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62871392
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62807720
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62810060, netId 12,7859, total objects 349
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62795240
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62802780, netId 12,7961, total objects 348
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62869832
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 51354092, netId 12,7999, total objects 347
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 2389916
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62869572, netId 12,8136, total objects 346
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 62872952
+[2017-10-09 15.29.56] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 62873992, netId 12,8351, total objects 345
+[2017-10-09 15.29.56] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-10-09 15.29.56] wmain : Service Object1 Shutdown

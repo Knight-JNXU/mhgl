@@ -1,0 +1,282 @@
+-- 定义物品表 : 物品表是个 lua table, 名称要与脚本名称相同，
+-- 暂为空表，但必需要定义
+Item20000 = {							--低级宝图
+} 
+
+-- item 代表使用中的 CItem object，在這裡可使用 CItem 的方法
+-- 如果这物品在地图使用，必需定义 MapUse 方法
+-- 如果这物品在战斗使用，必需定义 CanUse 及 BattleUse 方法
+-- 没有需要时，可免写 MapUse 或 CanUse,BattleUse 方法
+
+-- MapUse 是用地圖上使用該物品時 call 的
+-- target : 該物品使用的對象，可以是玩家、同伴或寵物
+function Item20000:MapUse(target)
+	if player:GetLevel() < 30 then
+		ShowHint("等你到达30级再来进行探险挖宝吧")
+		return
+	end	
+	if HasQuest(30601) or HasQuest(30602) or HasQuest(30603) then
+		ShowHint("跑镖途中不能挖宝")
+		return
+	end
+	local map_id, x, y
+
+	-- 取得這個物品 item value 1 值為 map_id
+	map_id = item:GetItemValue1()
+	-- 如果還沒設定
+	if map_id == 0 then
+		-- 位置表， {map_id, x1,y1,x2,y2} 中 x1,y1,x2,y2 代表范圍 
+		local range = {	
+		{map_id=1  ,x1=5,y1=10,x2=142, y2=344},
+		{map_id=2  ,x1=5,y1=10,x2=61, y2=268},
+		{map_id=6  ,x1=5,y1=10,x2=97, y2=294},
+		{map_id=7  ,x1=5,y1=10,x2=115, y2=344},
+		{map_id=8  ,x1=5,y1=10,x2=82,y2=273},
+		{map_id=10  ,x1=5,y1=10,x2=75, y2=362},
+		{map_id=11  ,x1=5,y1=10,x2=120,y2=403},			
+		{map_id=12,x1=5,y1=10,x2=112, y2=392},
+		 {map_id=14,x1=5,y1=10,x2=393, y2=294},
+		{map_id=15,x1=5,y1=10,x2=56, y2=176},			
+		{map_id=17  ,x1=5,y1=10,x2=73,y2=215},			
+		{map_id=19,x1=5,y1=10,x2=205, y2=800},
+		{map_id=26,x1=5,y1=10,x2=54, y2=172},
+		{map_id=84,x1=5,y1=10,x2=89, y2=291},
+		{map_id=108,x1=5,y1=10,x2=98, y2=513}}	
+		local loc = RandMapLoc(range)
+		map_id = loc.map_id
+		x = loc.x
+		y = loc.y
+			-- 將位置記錄在 item value 中
+		item:SetItemValue1(map_id)
+		item:SetItemValue2(x)
+		item:SetItemValue3(y)
+		print("SetItemValue", map_id, x, y)
+		--ShowHint(string.format("%s   %s\\", x, y))
+		
+		-- 隨機從位置表中找一個空的位置放置
+	else
+		-- 取得這個物品 item value 2,3 值為 x,y
+		x = item:GetItemValue2()
+		y = item:GetItemValue3()
+		print("GetItemValue", map_id, x, y)
+	--	ShowHint(string.format("%s   %s\\", x, y))
+
+	end
+	-- 如果玩家正在目标地图
+	if map_id == player:GetMap_id() then
+		-- 取得玩家现在位置
+		local tx = player:GetCurPosX()
+		local ty = player:GetCurPosY()
+		-- 玩家位置是否在目标位置范围 5 内
+		if PosInRange(tx, ty, x, y, 5) then
+			-- 玩家到达目标位置时
+			self:Reached(target)
+		else
+			-- 计算目标与玩家的差距及方向
+			local dis = CalcDistance(tx, ty, x, y)
+			local dir = CalcDirection(tx, ty, x, y)
+			-- 方向对应表
+			local dirMap = {	["SW"] = "西南方\#P↓",
+								["S"]  = "正南方\#P↘",
+								["SE"] = "东南方\#P→",
+								["E"]  = "正东方\#P↗",
+								["NE"] = "东北方\#P↑",
+								["N"]  = "正北方\#P↖",
+								["NW"] = "西北方\#P←",
+								["W"]  = "正西方\#P↙", }
+			print("dir, dis", dir, dis)
+			local strDir = dirMap[dir] or ""
+			local strDis = ""
+			if dis >= 0 and dis <= 20 then
+				strDis = "极近的"
+			elseif dis > 20 and dis <= 50 then
+				strDis = "很近的"
+			elseif dis > 50 and dis <= 80 then
+				strDis = "比较近的"
+			elseif dis > 80 and dis <= 110 then
+				strDis = "比较远的"
+			elseif dis > 110 and dis <= 140 then
+				strDis = "很远的"
+			else
+				strDis = "极远的"
+			end
+		--	ShowHint(string.format("宝藏位于离这里%s%s\\", strDis, strDir))
+		  ShowHint(string.format("宝藏图上的坐标位于%s的%s,%s", GetMapName(map_id),x, y))
+		end
+	else
+		-- 玩家不在目标地图
+		  ShowHint(string.format("宝藏图上的坐标位于%s的%s,%s", GetMapName(map_id),x, y))
+	end
+end
+
+-- 玩家到达目标位置时
+function Item20000:Reached(target)
+	if not item:ReduceCount() then return end	
+	  if player:GetItems():GetFreeSlot(0) > 0 then
+	    local r = math.random(1, 100)
+	    
+	    if r < 5 then  --5%几率获得魔兽要诀
+			local ItemListZ = {
+					  { itemid = 10080,	itemname = "真·太极心法"},
+					  { itemid = 10081, itemname = "真·逍遥无极"},
+					  { itemid = 10082, itemname = "真·物我两忘"},
+					  { itemid = 10083, itemname = "真·刀剑格挡"},
+					  { itemid = 10084, itemname = "真·扭转乾坤"},
+					  { itemid = 10085, itemname = "真·聚汇真元"},
+					  { itemid = 10086, itemname = "真·修身静气"},
+					  { itemid = 10087, itemname = "真·八步赶蝉"},
+					  { itemid = 10088, itemname = "真·化石神功"},
+					  { itemid = 10089, itemname = "真·如来护法"},
+					  { itemid = 10090, itemname = "真·真佛降临"},
+					  { itemid = 10091, itemname = "真·金钟罩"},
+					  { itemid = 10092, itemname = "真·听风辨位"},
+					  { itemid = 10093, itemname = "真·万毒穿心"},
+					  { itemid = 10094, itemname = "真·魂飞魄散"},
+					  { itemid = 10095, itemname = "真·嗜血狂魔"},
+					  { itemid = 10096, itemname = "真·泛渡银河"},
+					  { itemid = 10097, itemname = "真·移花接木"},
+					  { itemid = 10098, itemname = "真·破釜沉舟"},
+					  { itemid = 10099, itemname = "真·夺命连环"},
+					  { itemid = 10100, itemname = "真·悲燃怒气"},
+					  { itemid = 10101, itemname = "真·无双一击"},
+					  { itemid = 10102, itemname = "真·连环归灭"},
+					  { itemid = 10103, itemname = "真·凝神聚气"},
+					  { itemid = 10104, itemname = "真·笑里藏刀"},
+					  { itemid = 10105, itemname = "真·龟息功"},
+					  { itemid = 10106, itemname = "真·罗中返魂大法"},}		
+			  local r = RandTable(ItemListZ)
+			  ShowHint("\#P发现藏宝地点\#W：恭喜你挖到了一本魔兽要诀！")
+			  ShowError(string.format("\#W获得魔兽要诀"))
+			  player:GetItems():AddItem(r.itemid, 1)
+			elseif r < 10 then 
+			  local i = math.random(1, 100)
+		  	if i < 20 then
+			    Item = 20006	--1%金刚石
+		      player:GetItems():AddItem(Item, 1)
+	        ShowError(string.format("\#W获得%s",GetItemName(Item)))
+		  	
+		  	elseif i < 40 then
+			    Item = 20005	--%2定魂珠
+		      player:GetItems():AddItem(Item, 1)
+	        ShowError(string.format("\#W获得%s",GetItemName(Item)))
+		  
+		  	elseif i < 60 then
+			    Item = 20004	--7%夜光珠
+		      player:GetItems():AddItem(Item, 1)
+	        ShowError(string.format("\#W获得%s",GetItemName(Item)))
+			
+			  elseif i < 80 then
+			    Item = 20003	--10%龙鳞
+		      player:GetItems():AddItem(Item, 1)
+	        ShowError(string.format("\#W获得%s",GetItemName(Item)))
+			 
+			  elseif i < 100 then
+			    Item = 20002	--15%避水珠
+		      player:GetItems():AddItem(Item, 1)
+	        ShowError(string.format("\#W获得%s",GetItemName(Item)))
+	     
+	      end
+			elseif r < 30 then
+			  Item = 30000  --10%金柳露
+		    player:GetItems():AddItem(Item, 1)
+	      ShowError(string.format("\#W获得%s",GetItemName(Item)))
+			elseif r < 35 then
+		    Item = RandTable({20246,20247,20248,20249,20250,20251,20252}) -- 20%10级-70级铁
+		    player:GetItems():AddItem(Item, 1)
+	      ShowError(string.format("\#W获得%s",GetItemName(Item)))
+			elseif r < 40 then  -- 75%的5%50级-70级武器装备
+		    Item = RandTable({20450,20451,20452,20459,20460,20461,20468,20469,20470,20477,20478,20479,20486,20487,20488,20495,20496,20497,20504,20505,20506,20513,20514,20515,20522,20523,20524,20531,20532,20533,20540,20541,20542,20549,20550,20551,20552,20558,20559,20560,20561,20567,20568,20569,20570,20576,20577,20578,20579,20587,20588,20589,20590,20591,20592,20593,20594,20600,20601,20602,20603,20611,20612,20613,20614,20615,20616,20617,20618})
+		    player:GetItems():AddItem(Item, 1)
+	      ShowError(string.format("\#W获得%s",GetItemName(Item)))
+			elseif r < 45 then  --  -- 17%10-40级武器
+		    Item = RandTable({20446,20447,20448,20449,20455,20456,20457,20458,20464,20465,20466,20467,20473,20474,20475,20476,20482,20483,20484,20485,20491,20492,20493,20494,20500,20501,20502,20503,20509,20510,20511,20512,20518,20519,20520,20521,20527,20528,20529,20530,20536,20537,20538,20539})
+		    player:GetItems():AddItem(Item, 1)
+	      ShowError(string.format("\#W获得%s",GetItemName(Item)))
+			elseif r < 50 then  -- -- 17%10-40级装备
+		    Item = RandTable({20545,20546,20547,20548,20554,20555,20556,20557,20563,20564,20565,20566,20572,20573,20574,20575,20581,20582,20583,20584,20585,20586,20596,20597,20598,20599,20605,20606,20607,20608,20609,20610})		
+		    player:GetItems():AddItem(Item, 1)
+	      ShowError(string.format("\#W获得%s",GetItemName(Item)))
+  	elseif r <= 55 then			-- 20%机率与金钱帮杀手战斗
+		    ShowHint("\#P发现藏宝地点\#W：这是金钱帮的一个阴谋！")
+		    player:EncounterBattle(200202)
+	  elseif r <= 60 then			--  10%中毒
+		    ShowHint("\#P发现藏宝地点\#W：挖到毒气池，你不幸吸入一些毒气导致气血、内力大减……")
+		    player:ChangeHP(-player:GetHP() * 80 / 100)
+		    player:ChangeSP(-player:GetSP() * 80 / 100)
+	  elseif r <= 66 then	          --  15%获得银票
+	      local M = math.random(0, 10000)  
+	      ShowHint(string.format("\#P发现藏宝地点\#W：发现宝箱，打开后获得银两\#G%d",M))
+		  player:ChangeSMoney(M,305)
+		  ShowError(string.format("\#W获得银两%d",M))
+	  else						-- 27%触发邪教护法
+		  local map = {	
+		  {map_id=100  ,x1=5,y1=10,x2=92, y2=258, map_name = "碧云滩",npc_lv = 10,npc_id = 200203 },
+		  {map_id=200  ,x1=5,y1=10,x2=64, y2=198, map_name = "忘忧林",npc_lv = 10,npc_id = 200203 },
+		  {map_id=300  ,x1=5,y1=10,x2=73, y2=234, map_name = "无名岩洞",npc_lv = 10,npc_id = 200203 },
+		  {map_id=400  ,x1=5,y1=10,x2=97, y2=268, map_name = "京城南郊",npc_lv = 10,npc_id = 200203 },
+		  {map_id=500  ,x1=5,y1=10,x2=117,y2=314, map_name = "百花谷",npc_lv = 20,npc_id = 200204 },
+		  {map_id=700  ,x1=5,y1=10,x2=63, y2=392, map_name = "月牙湾",npc_lv = 20,npc_id = 200204},
+		  {map_id=600  ,x1=5,y1=10,x2=103,y2=308, map_name = "江南",npc_lv = 20,npc_id = 200204},			
+		  {map_id=50100,x1=5,y1=10,x2=83, y2=272, map_name = "狼山山麓",npc_lv = 20,npc_id = 200204},
+	    {map_id=50200,x1=5,y1=10,x2=82, y2=272, map_name = "狼山小径",npc_lv = 30,npc_id = 200205},
+		{map_id=50300,x1=5,y1=10,x2=82, y2=272, map_name = "狼山之颠",npc_lv = 30,npc_id = 200205},			
+		{map_id=800  ,x1=5,y1=10,x2=165,y2=306, map_name = "妙峰山",npc_lv = 30,npc_id = 200205},			
+		{map_id=50400,x1=5,y1=10,x2=85, y2=246, map_name = "蝙蝠岛",npc_lv = 30,npc_id = 200205},
+		{map_id=50500,x1=5,y1=10,x2=77, y2=227, map_name = "蝙蝠岛一层",npc_lv = 40,npc_id = 200206},
+		{map_id=50600,x1=5,y1=10,x2=84, y2=244, map_name = "蝙蝠岛底层",npc_lv = 40,npc_id = 200206},
+		{map_id=50700,x1=5,y1=10,x2=86, y2=249, map_name = "蝙蝠岛二层",npc_lv = 40,npc_id = 200206},
+		{map_id=50800,x1=5,y1=10,x2=82, y2=243, map_name = "蝙蝠岛三层",npc_lv = 40,npc_id = 200206},			
+		{map_id=900  ,x1=5,y1=10,x2=107,y2=310, map_name = "浮云岭",npc_lv = 50,npc_id = 200207},
+		{map_id=1000 ,x1=5,y1=10,x2=137,y2=276, map_name = "万马原",npc_lv = 50,npc_id = 200207},
+		{map_id=1100 ,x1=5,y1=10,x2=93, y2=251, map_name = "孔雀坡",npc_lv = 50,npc_id = 200207},
+		{map_id=1200 ,x1=5,y1=10,x2=100, y2=280, map_name = "京城东郊",npc_lv = 50,npc_id = 200207},
+		{map_id=1300 ,x1=5,y1=10,x2=130, y2=385, map_name = "蜀中",npc_lv = 60,npc_id = 200208},
+		{map_id=1400 ,x1=5,y1=10,x2=90, y2=260, map_name = "金沙湾",npc_lv = 60,npc_id = 200208},
+		{map_id=1500 ,x1=5,y1=10,x2=85, y2=315, map_name = "快活林",npc_lv = 60,npc_id = 200208},
+		{map_id=1600 ,x1=5,y1=10,x2=130, y2=310, map_name = "绿水湖",npc_lv = 60,npc_id = 200208},
+		{map_id=1800 ,x1=5,y1=10,x2=130, y2=325, map_name = "北行道",npc_lv = 70,npc_id = 200209},
+		{map_id=1700 ,x1=5,y1=10,x2=155, y2=210, map_name = "恶谷林",npc_lv = 70,npc_id = 200209},				
+		{map_id=51400,x1=30,y1=40,x2=120, y2=270, map_name = "孔雀陵一层",npc_lv = 70,npc_id = 200209},
+		{map_id=51500,x1=10,y1=100,x2=130, y2=240, map_name = "孔雀陵二层",npc_lv = 80,npc_id = 200210},
+		{map_id=51600,x1=10,y1=80,x2=130, y2=250, map_name = "孔雀陵三层",npc_lv = 80,npc_id = 200210},
+		  {map_id=51700,x1=15,y1=50,x2=130, y2=270, map_name = "孔雀陵四层",npc_lv = 80,npc_id = 200210}}
+		  local map_id, x1, y1,x2,y2,map_name,npc_lv,npc_id
+		  local loc = RandTable(map)
+			  map_id = loc.map_id
+			  x1 = loc.x1
+			  y1 = loc.y1
+			  x2 = loc.x2
+			  y2 = loc.y2
+			  map_name = loc.map_name
+			  npc_lv = loc.npc_lv
+			  npc_id = loc.npc_id
+	  	local oneMap = { {  map_id = map_id , x1 = x1, y1 = y1, x2 = x2 - 10 , y2 = y2 -10 }}
+		  ShowHint(string.format("\#P发现藏宝地点\#W：挖半天不见宝藏，反而惊动了一群\#A邪教护卫\#W，还是开溜吧……", map_name))		
+		  script:Rumor(string.format(" \#W%s \#O在挖宝时惊动了\#P%s\#O一带的#G%d\#O级\#A邪教护法\#O。\#G(2线)", 
+		  player:GetCharNameLink(), map_name, npc_lv), false)
+		  for i = 1, 8 do
+			  local loc1 = RandMapLoc(oneMap)
+			  if loc1 then
+				-- 生成一个新 NPC 在该随机位置上
+				  script:GenerateNPC(npc_id, loc1.map_id, loc1.x, loc1.y, true, 1200, 2)
+			  end
+		  end--]]
+		end
+  else
+	  ShowHint("很遗憾，你的当前包裹已满，所挖宝贝丢失……")
+  end
+end--]]
+
+
+-- CanUse 是用战斗中检查該物品能否使用时 call 的
+-- user : 該物品使用的對象，user 是 CBatActor object
+-- target : 該物品使用的對象，target 是 CBatActor object
+function Item20000:CanUse(user, target)
+end
+
+-- BattleUse 是用战斗中使用該物品時 call 的
+function Item20000:BattleUse(user, target)
+end
+
+-- 必需在脚本最後将物品表加入系统中
+AddItemTable(Item20000)

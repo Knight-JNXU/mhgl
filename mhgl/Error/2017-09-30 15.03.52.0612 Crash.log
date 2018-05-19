@@ -1,0 +1,898 @@
+==============================================================================
+
+Reuben Engine (Version : 0.1.0.309.0)
+Build:		0
+Build Config Flags:	0x0000002F
+
+------------------------------------------------------------------------------
+
+Object Service (Version : 0.5.0.12548.0)
+Build:		0
+
+------------------------------------------------------------------------------
+
+Execute File:		E:\MHGLServer\ObjectServicePU.exe
+Occurs Time:		2017-09-30 15.04.01.0940
+User Name:		Administrator
+Computer Name:		MYSQL
+Operating system:	Unknown Windows Version (6.1.7601)
+2 processor(s), type 586
+50% memory in use
+0 MBytes physical memory
+2012 MBytes physical memory free
+4094 MBytes paging file
+2002 MBytes paging file free
+2048 MBytes user address space
+1911 MBytes user address space free
+
+------------------------------------------------------------------------------
+
+ERROR: [EXCEPTION_ACCESS_VIOLATION 0xC0000005]
+Module:		E:\MHGLServer\ObjectServicePU.exe
+Occurs at:	0023:00689A4E
+
+The instruction at "0x00689A4E" referenced memory at "0x08430F58"
+The memory could not be "Read"
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+	x86 Registers
+----------------------------------------
+
+EAX=0289FF78  EBX=08430F40  ECX=08430F40  EDX=00000000  ESI=000003E3
+EDI=000000D0  EBP=76CD11C0  ESP=0289FECC  EIP=00689A4E  FLG=00010206
+CS =0023      DS =002B      ES =002B      SS =002B      FS =0053      GS =002B
+
+----------------------------------------
+	Stack Trace (Manual)
+----------------------------------------
+
+EBP=0x76CD11C0 Frame=0x909005EB Return=0xFF909090 Logical_Addr=0007:FF908090 
+Module=Unknown Module
+	Param1=0xCD0D9C25 Param2=0x90909076 Param3=0x90909090 Param4=0x90909090 Param5=0x90909090 
+	Param6=0x90909090 Param7=0x8B55FF8B Param8=0x05EB5DEC Param9=0x90909090 Param10=0x2425FF90 
+EBP=0x909005EB Frame=0x00000000 Return=0x00000000 Logical_Addr=0000:FFFFF000 
+Module=E:\MHGLServer\ObjectServicePU.exe
+	Param1=BadReadPtr Param2=BadReadPtr Param3=BadReadPtr Param4=BadReadPtr Param5=BadReadPtr 
+	Param6=BadReadPtr Param7=BadReadPtr Param8=BadReadPtr Param9=BadReadPtr Param10=BadReadPtr 
+
+----------------------------------------
+	Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+00689A4E 00000000 00000000 00000000
+
+----------------------------------------
+	Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x00856000  E:\MHGLServer\ObjectServicePU.exe
+0x77E40000 - 0x77FC0000  C:\Windows\SysWOW64\ntdll.dll
+0x76CC0000 - 0x76DD0000  C:\Windows\syswow64\kernel32.dll
+0x769B0000 - 0x769F7000  C:\Windows\syswow64\KERNELBASE.dll
+0x73670000 - 0x736A2000  C:\Windows\system32\WINMM.dll
+0x77190000 - 0x7723C000  C:\Windows\syswow64\msvcrt.dll
+0x776D0000 - 0x777D0000  C:\Windows\syswow64\USER32.dll
+0x77290000 - 0x77320000  C:\Windows\syswow64\GDI32.dll
+0x77350000 - 0x7735A000  C:\Windows\syswow64\LPK.dll
+0x75B80000 - 0x75C1D000  C:\Windows\syswow64\USP10.dll
+0x76F80000 - 0x77021000  C:\Windows\syswow64\ADVAPI32.dll
+0x77320000 - 0x77339000  C:\Windows\SysWOW64\sechost.dll
+0x76E10000 - 0x76F00000  C:\Windows\syswow64\RPCRT4.dll
+0x756E0000 - 0x75740000  C:\Windows\syswow64\SspiCli.dll
+0x756D0000 - 0x756DC000  C:\Windows\syswow64\CRYPTBASE.dll
+0x75C90000 - 0x768DC000  C:\Windows\syswow64\SHELL32.dll
+
+----------------------------------------
+	Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 00000000)
+
+00000000: Bad Read Pointer
+Stack: 4096 bytes starting at (ESP = 0289FED0)
+
+| Address  | 0| 1| 2| 3| 4| 5| 6| 7| 8| 9| A| B| C| D| E| F| **************** |
+ 0x0289FED0 AB D3 CE 76 D0 00 00 00 00 00 00 00 AB D3 CE 76  ...v...........v 
+ 0x0289FEE0 D0 FE 89 02 80 1C 11 02 78 FF 89 02 C5 58 EB 77  ........x....X.w 
+ 0x0289FEF0 CF AE EE 05 FE FF FF FF 08 FF 89 02 0A 7A 9E 76  .............z.v 
+ 0x0289FF00 E3 03 00 00 00 00 00 00 24 FF 89 02 81 77 9B 76  ........$....w.v 
+ 0x0289FF10 20 01 00 C0 00 00 2A 02 00 00 00 00 20 01 00 C0   .....*..... ... 
+ 0x0289FF20 00 00 00 00 78 FF 89 02 F0 7F 76 00 FF FF FF FF  ....x.....v..... 
+ 0x0289FF30 98 B1 68 00 E3 03 00 00 00 00 00 00 40 0F 43 08  ..h.........@.C. 
+ 0x0289FF40 00 00 00 00 B8 FA 2A 02 88 FF 89 02 80 1C 11 02  ......*......... 
+ 0x0289FF50 00 00 00 00 74 F5 86 03 81 B3 36 7C 40 0F 43 08  ....t.....6|@.C. 
+ 0x0289FF60 00 00 00 00 00 00 00 00 80 1C 11 02 05 00 00 C0  ................ 
+ 0x0289FF70 60 FF 89 02 24 F9 89 02 C4 FF 89 02 E2 38 36 7C  `...$........86| 
+ 0x0289FF80 30 F6 39 7C 00 00 00 00 94 FF 89 02 6A 33 CD 76  0.9|........j3.v 
+ 0x0289FF90 80 1C 11 02 D4 FF 89 02 02 99 E7 77 80 1C 11 02  ...........w.... 
+ 0x0289FFA0 B3 9E 81 70 00 00 00 00 00 00 00 00 80 1C 11 02  ...p............ 
+ 0x0289FFB0 00 00 00 00 00 00 00 00 00 00 00 00 A0 FF 89 02  ................ 
+ 0x0289FFC0 00 00 00 00 E4 FF 89 02 C5 58 EB 77 47 A7 EE 05  .........X.wG... 
+ 0x0289FFD0 00 00 00 00 EC FF 89 02 D5 98 E7 77 12 B3 36 7C  ...........w..6| 
+ 0x0289FFE0 80 1C 11 02 FF FF FF FF CC 75 F0 77 00 00 00 00  .........u.w.... 
+ 0x0289FFF0 00 00 00 00 12 B3 36 7C 80 1C 11 02 00 00 00 00  ......6|........ 
+ 0x028A0000 Bad Read Pointer
+
+----------------------------------------
+	Loaded Modules Details
+----------------------------------------
+
+Module 1
+E:\MHGLServer\ObjectServicePU.exe
+Image Base: 0x00400000 Image Size: 0x00456000
+Checksum:   0x0045D421 Time Stamp: 0x4EA921B3
+File Size:  4513792    File Time:  1/7/2017 08:12:11
+Version Information:
+Retrieve Version Information Failed!!!!
+
+Module 2
+C:\Windows\SysWOW64\sqlncli.dll
+Image Base: 0x337A0000 Image Size: 0x0021E000
+Checksum:   0x00220E93 Time Stamp: 0x434F8757
+File Size:  2208016    File Time:  13/10/2005 19:51:26
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft SQL Native Client
+	FileDesc:	Microsoft SQL Native Client
+	FileVer:	2005.90.1399.0
+	ProdVer:	9.0.1399.0
+
+Module 3
+C:\Windows\SysWOW64\SQLNCLIR.RLL
+Image Base: 0x35000000 Image Size: 0x00033000
+Checksum:   0x0003B931 Time Stamp: 0x434F60C5
+File Size:  205528     File Time:  11/11/2005 10:40:08
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft SQL Native Client
+	FileDesc:	Microsoft SQL Native Client
+	FileVer:	2005.90.1399.0
+	ProdVer:	9.0.1399.0
+
+Module 4
+C:\Program Files (x86)\Microsoft SQL Server\90\Shared\instapi.dll
+Image Base: 0x48060000 Image Size: 0x0000A000
+Checksum:   0x0000DF2D Time Stamp: 0x434F63FA
+File Size:  35032      File Time:  13/10/2005 18:37:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft SQL Server
+	FileDesc:	SQL Server Instance API DLL
+	FileVer:	2005.90.1399.0
+	ProdVer:	9.0.1399.0
+
+Module 5
+E:\MHGLServer\dbghelp.dll
+Image Base: 0x68CC0000 Image Size: 0x000A1000
+Checksum:   0x000A32FC Time Stamp: 0x411AC4BF
+File Size:  640000     File Time:  2/12/2011 06:43:48
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows Image Helper
+	FileVer:	5.1.2600.2180
+	ProdVer:	5.1.2600.2180
+
+Module 6
+C:\Windows\system32\comsvcs.dll
+Image Base: 0x6E3C0000 Image Size: 0x00136000
+Checksum:   0x001381C3 Time Stamp: 0x56F58378
+File Size:  1241600    File Time:  20/6/2017 13:22:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	COM+ Services
+	FileVer:	2001.12.8531.23403
+	ProdVer:	6.1.7601.23403
+
+Module 7
+C:\Program Files (x86)\Common Files\System\Ole DB\oledb32.dll
+Image Base: 0x6E500000 Image Size: 0x000D4000
+Checksum:   0x000DF097 Time Stamp: 0x4CE7B974
+File Size:  864256     File Time:  21/11/2010 03:24:06
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	OLE DB Core Services
+	FileVer:	6.1.7601.17514
+	ProdVer:	6.1.7601.17514
+
+Module 8
+C:\Windows\system32\netbios.dll
+Image Base: 0x70DA0000 Image Size: 0x00008000
+Checksum:   0x0000E9B5 Time Stamp: 0x4A5BC90F
+File Size:  14336      File Time:  14/7/2009 01:16:02
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	NetBIOS Interface Library
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 9
+C:\Program Files (x86)\Common Files\System\Ole DB\OLEDB32R.DLL
+Image Base: 0x70E20000 Image Size: 0x00014000
+Checksum:   0x00015A91 Time Stamp: 0x4A5BDACD
+File Size:  81920      File Time:  14/7/2009 01:09:16
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	OLE DB 
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 10
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.23403_none_2b180b30457f196c\Comctl32.dll
+Image Base: 0x70FF0000 Image Size: 0x0019E000
+Checksum:   0x001A85EC Time Stamp: 0x56F5829C
+File Size:  1680896    File Time:  20/6/2017 13:22:24
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.10.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 11
+C:\Windows\system32\MSDART.DLL
+Image Base: 0x72680000 Image Size: 0x0001F000
+Checksum:   0x00020F69 Time Stamp: 0x4A5BDA77
+File Size:  126976     File Time:  14/7/2009 01:15:43
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	OLE DB Runtime Routines
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 12
+C:\Windows\SysWOW64\bcryptprimitives.dll
+Image Base: 0x73040000 Image Size: 0x0003D000
+Checksum:   0x000418E9 Time Stamp: 0x57334D70
+File Size:  249352     File Time:  20/6/2017 13:58:08
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows Cryptographic Primitives Library
+	FileVer:	6.1.7601.23451
+	ProdVer:	6.1.7601.23451
+
+Module 13
+C:\Windows\system32\ntdsapi.dll
+Image Base: 0x730B0000 Image Size: 0x00018000
+Checksum:   0x00020D5A Time Stamp: 0x4A5BDADE
+File Size:  90112      File Time:  14/7/2009 01:16:11
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Active Directory Domain Services API
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 14
+C:\Windows\system32\bcrypt.dll
+Image Base: 0x730F0000 Image Size: 0x00017000
+Checksum:   0x0001DA68 Time Stamp: 0x598D4C80
+File Size:  82944      File Time:  11/8/2017 06:19:44
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows Cryptographic Primitives Library (Wow64)
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 15
+C:\Windows\system32\ncrypt.dll
+Image Base: 0x73140000 Image Size: 0x00039000
+Checksum:   0x0003C0F9 Time Stamp: 0x598D4C87
+File Size:  223232     File Time:  11/8/2017 06:19:36
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows 
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 16
+C:\Windows\system32\security.dll
+Image Base: 0x73180000 Image Size: 0x00003000
+Checksum:   0x0000610D Time Stamp: 0x4A5BDB0D
+File Size:  4608       File Time:  14/7/2009 01:09:53
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Security Support Provider Interface
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 17
+C:\Windows\SysWOW64\schannel.dll
+Image Base: 0x73190000 Image Size: 0x00041000
+Checksum:   0x0004A446 Time Stamp: 0x598D4C8A
+File Size:  254464     File Time:  11/8/2017 06:19:40
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	TLS / SSL Security Provider
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 18
+C:\Windows\SysWOW64\Kerberos.DLL
+Image Base: 0x731E0000 Image Size: 0x0008B000
+Checksum:   0x00090336 Time Stamp: 0x598D4D1C
+File Size:  554496     File Time:  11/8/2017 06:19:33
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Kerberos 
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 19
+C:\Windows\system32\cryptdll.dll
+Image Base: 0x73270000 Image Size: 0x00011000
+Checksum:   0x0001309A Time Stamp: 0x56F58384
+File Size:  58368      File Time:  20/6/2017 13:22:21
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Cryptography Manager
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 20
+C:\Windows\SysWOW64\msv1_0.DLL
+Image Base: 0x73290000 Image Size: 0x00043000
+Checksum:   0x00047D1C Time Stamp: 0x598D4CA1
+File Size:  261120     File Time:  11/8/2017 06:19:36
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Microsoft Authentication Package v1.0
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 21
+C:\Windows\system32\credssp.dll
+Image Base: 0x732E0000 Image Size: 0x00008000
+Checksum:   0x0000A242 Time Stamp: 0x598D4D12
+File Size:  17408      File Time:  11/8/2017 06:19:30
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Credential Delegation Security Package
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 22
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18837_none_ec86b8d6858ec0bc\COMCTL32.dll
+Image Base: 0x73590000 Image Size: 0x00084000
+Checksum:   0x00081DEE Time Stamp: 0x553A83E2
+File Size:  530432     File Time:  20/6/2017 13:50:40
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	5.82.7601.18837
+	ProdVer:	6.1.7601.18837
+
+Module 23
+C:\Windows\system32\WINMM.dll
+Image Base: 0x73670000 Image Size: 0x00032000
+Checksum:   0x0003EE32 Time Stamp: 0x56F5847E
+File Size:  194048     File Time:  20/6/2017 13:22:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	MCI API DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 24
+C:\Windows\system32\RpcRtRemote.dll
+Image Base: 0x74140000 Image Size: 0x0000E000
+Checksum:   0x0000D0FE Time Stamp: 0x4CE7992F
+File Size:  46080      File Time:  21/11/2010 03:24:14
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Remote RPC Extension
+	FileVer:	6.1.7601.17514
+	ProdVer:	6.1.7601.17514
+
+Module 25
+C:\Windows\system32\rsaenh.dll
+Image Base: 0x74180000 Image Size: 0x0003B000
+Checksum:   0x000401A8 Time Stamp: 0x4A5BDAE0
+File Size:  242936     File Time:  14/7/2009 01:17:54
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Microsoft Enhanced Cryptographic Provider
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 26
+C:\Windows\system32\CRYPTSP.dll
+Image Base: 0x74220000 Image Size: 0x00017000
+Checksum:   0x0001AF3A Time Stamp: 0x57602197
+File Size:  80896      File Time:  20/6/2017 14:12:19
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Cryptographic Service Provider API
+	FileVer:	6.1.7601.23471
+	ProdVer:	6.1.7601.23471
+
+Module 27
+C:\Windows\system32\LOGONCLI.DLL
+Image Base: 0x74460000 Image Size: 0x00022000
+Checksum:   0x00020971 Time Stamp: 0x56F58352
+File Size:  126976     File Time:  20/6/2017 13:22:10
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Net Logon Client DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 28
+C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCR80.dll
+Image Base: 0x74530000 Image Size: 0x0009B000
+Checksum:   0x000A606B Time Stamp: 0x4CA2B271
+File Size:  632656     File Time:  21/11/2010 03:24:06
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Visual Studio® 2005
+	FileDesc:	Microsoft® C Runtime Library
+	FileVer:	8.0.50727.4940
+	ProdVer:	8.0.50727.4940
+
+Module 29
+C:\Windows\SysWOW64\wkscli.dll
+Image Base: 0x745E0000 Image Size: 0x0000F000
+Checksum:   0x00010D3B Time Stamp: 0x4CE795A7
+File Size:  47104      File Time:  21/11/2010 03:24:02
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Workstation Service Client DLL
+	FileVer:	6.1.7601.17514
+	ProdVer:	6.1.7601.17514
+
+Module 30
+C:\Windows\SysWOW64\srvcli.dll
+Image Base: 0x745F0000 Image Size: 0x00019000
+Checksum:   0x00017D8F Time Stamp: 0x4CE7BA1F
+File Size:  90112      File Time:  21/11/2010 03:24:19
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Server Service Client DLL
+	FileVer:	6.1.7601.17514
+	ProdVer:	6.1.7601.17514
+
+Module 31
+C:\Windows\SysWOW64\netutils.dll
+Image Base: 0x74610000 Image Size: 0x00009000
+Checksum:   0x0000DBC3 Time Stamp: 0x4CE795A6
+File Size:  22528      File Time:  21/11/2010 03:24:17
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Net Win32 API Helpers DLL
+	FileVer:	6.1.7601.17514
+	ProdVer:	6.1.7601.17514
+
+Module 32
+C:\Windows\SysWOW64\NETAPI32.dll
+Image Base: 0x74620000 Image Size: 0x00011000
+Checksum:   0x00017F90 Time Stamp: 0x56F583C0
+File Size:  56832      File Time:  20/6/2017 13:22:14
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Net Win32 API DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 33
+C:\Windows\system32\VERSION.dll
+Image Base: 0x746F0000 Image Size: 0x00009000
+Checksum:   0x00006984 Time Stamp: 0x56F58469
+File Size:  21504      File Time:  20/6/2017 13:22:02
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Version Checking and File Installation Libraries
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 34
+C:\Windows\system32\ATL.DLL
+Image Base: 0x74840000 Image Size: 0x00014000
+Checksum:   0x0001B4FA Time Stamp: 0x4A5BD97A
+File Size:  70144      File Time:  14/7/2009 01:14:57
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft (R) Visual C++
+	FileDesc:	ATL Module for Windows XP (Unicode)
+	FileVer:	3.5.2284.0
+	ProdVer:	6.5.0.2284
+
+Module 35
+C:\Windows\System32\wshtcpip.dll
+Image Base: 0x74C80000 Image Size: 0x00005000
+Checksum:   0x00008A44 Time Stamp: 0x4A5BDB5A
+File Size:  9216       File Time:  14/7/2009 01:16:20
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Winsock2 
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 36
+C:\Windows\system32\mswsock.dll
+Image Base: 0x74C90000 Image Size: 0x0003C000
+Checksum:   0x0003F0F6 Time Stamp: 0x57334DA8
+File Size:  231424     File Time:  20/6/2017 13:56:29
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Microsoft Windows Sockets 2.0 
+	FileVer:	6.1.7601.23451
+	ProdVer:	6.1.7601.23451
+
+Module 37
+C:\Windows\system32\secur32.dll
+Image Base: 0x74CD0000 Image Size: 0x00008000
+Checksum:   0x0000A94B Time Stamp: 0x598D4CAB
+File Size:  22016      File Time:  11/8/2017 06:19:41
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Security Support Provider Interface
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 38
+C:\Windows\syswow64\CRYPTBASE.dll
+Image Base: 0x756D0000 Image Size: 0x0000C000
+Checksum:   0x0000E20A Time Stamp: 0x598D46E2
+File Size:  36352      File Time:  11/8/2017 05:55:46
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Base cryptographic API DLL
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 39
+C:\Windows\syswow64\SspiCli.dll
+Image Base: 0x756E0000 Image Size: 0x00060000
+Checksum:   0x0001F494 Time Stamp: 0x598D4C81
+File Size:  96768      File Time:  11/8/2017 06:19:45
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Security Support Provider Interface
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 40
+C:\Windows\syswow64\CRYPT32.dll
+Image Base: 0x757A0000 Image Size: 0x00121000
+Checksum:   0x00122F2E Time Stamp: 0x58EE4773
+File Size:  1176064    File Time:  20/6/2017 14:12:13
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23769
+	ProdVer:	6.1.7601.23769
+
+Module 41
+C:\Windows\syswow64\OLEAUT32.dll
+Image Base: 0x75A30000 Image Size: 0x00091000
+Checksum:   0x0009A3E5 Time Stamp: 0x58F4DB68
+File Size:  581632     File Time:  20/6/2017 14:12:16
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	
+	FileDesc:	
+	FileVer:	6.1.7601.23775
+	ProdVer:	6.1.7601.23775
+
+Module 42
+C:\Windows\syswow64\MSASN1.dll
+Image Base: 0x75AD0000 Image Size: 0x0000C000
+Checksum:   0x000144BD Time Stamp: 0x56F58390
+File Size:  33792      File Time:  20/6/2017 13:22:14
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	ASN.1 Runtime APIs
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 43
+C:\Windows\system32\IMM32.DLL
+Image Base: 0x75B10000 Image Size: 0x00060000
+Checksum:   0x0002D2A4 Time Stamp: 0x56F5847D
+File Size:  119808     File Time:  20/6/2017 13:22:37
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Multi-User Windows IMM32 API Client DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 44
+C:\Windows\syswow64\USP10.dll
+Image Base: 0x75B80000 Image Size: 0x0009D000
+Checksum:   0x000A5B31 Time Stamp: 0x59946079
+File Size:  629760     File Time:  16/8/2017 15:10:30
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft(R) Uniscribe Unicode script processor
+	FileDesc:	Uniscribe Unicode script processor
+	FileVer:	1.626.7601.23894
+	ProdVer:	1.626.7601.23894
+
+Module 45
+C:\Windows\syswow64\NSI.dll
+Image Base: 0x75C40000 Image Size: 0x00006000
+Checksum:   0x0000674D Time Stamp: 0x598D4CE5
+File Size:  8704       File Time:  11/8/2017 06:19:39
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	NSI User-mode interface DLL
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 46
+C:\Windows\syswow64\SHELL32.dll
+Image Base: 0x75C90000 Image Size: 0x00C4C000
+Checksum:   0x00C51905 Time Stamp: 0x59930F00
+File Size:  12880896   File Time:  15/8/2017 15:10:54
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows 
+	FileVer:	6.1.7601.23893
+	ProdVer:	6.1.7601.23893
+
+Module 47
+C:\Windows\syswow64\KERNELBASE.dll
+Image Base: 0x769B0000 Image Size: 0x00047000
+Checksum:   0x00044554 Time Stamp: 0x598D4D26
+File Size:  275456     File Time:  11/8/2017 06:19:45
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows NT 
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 48
+C:\Windows\syswow64\kernel32.dll
+Image Base: 0x76CC0000 Image Size: 0x00110000
+Checksum:   0x00115E08 Time Stamp: 0x598D4D25
+File Size:  1114112    File Time:  11/8/2017 06:19:45
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows NT 
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 49
+C:\Windows\syswow64\RPCRT4.dll
+Image Base: 0x76E10000 Image Size: 0x000F0000
+Checksum:   0x000B29A5 Time Stamp: 0x598D4C81
+File Size:  666112     File Time:  11/8/2017 06:19:45
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 50
+C:\Windows\syswow64\comdlg32.dll
+Image Base: 0x76F00000 Image Size: 0x0007B000
+Checksum:   0x0008590F Time Stamp: 0x56F5836F
+File Size:  486400     File Time:  20/6/2017 13:22:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Common Dialogs DLL
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 51
+C:\Windows\syswow64\ADVAPI32.dll
+Image Base: 0x76F80000 Image Size: 0x000A1000
+Checksum:   0x000ACB55 Time Stamp: 0x598D4C7B
+File Size:  644096     File Time:  11/8/2017 06:19:29
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 52
+C:\Windows\syswow64\ole32.dll
+Image Base: 0x77030000 Image Size: 0x0015D000
+Checksum:   0x00168964 Time Stamp: 0x598D4C89
+File Size:  1417728    File Time:  11/8/2017 06:19:39
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 53
+C:\Windows\syswow64\msvcrt.dll
+Image Base: 0x77190000 Image Size: 0x000AC000
+Checksum:   0x000B65C4 Time Stamp: 0x56F583CC
+File Size:  689664     File Time:  20/6/2017 13:22:14
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows NT CRT DLL
+	FileVer:	7.0.7601.23403
+	ProdVer:	6.1.8638.23403
+
+Module 54
+C:\Windows\syswow64\GDI32.dll
+Image Base: 0x77290000 Image Size: 0x00090000
+Checksum:   0x00053BF8 Time Stamp: 0x5915F8E8
+File Size:  313344     File Time:  20/6/2017 14:12:30
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	GDI Client DLL
+	FileVer:	6.1.7601.23807
+	ProdVer:	6.1.7601.23807
+
+Module 55
+C:\Windows\SysWOW64\sechost.dll
+Image Base: 0x77320000 Image Size: 0x00019000
+Checksum:   0x0001B5D1 Time Stamp: 0x56F58445
+File Size:  91648      File Time:  20/6/2017 13:22:10
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Host for SCM/SDDL/LSA Lookup APIs
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 56
+C:\Windows\syswow64\PSAPI.DLL
+Image Base: 0x77340000 Image Size: 0x00005000
+Checksum:   0x0000CCD3 Time Stamp: 0x4A5BDACE
+File Size:  6144       File Time:  14/7/2009 01:16:12
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Process Status Helper
+	FileVer:	6.1.7600.16385
+	ProdVer:	6.1.7600.16385
+
+Module 57
+C:\Windows\syswow64\LPK.dll
+Image Base: 0x77350000 Image Size: 0x0000A000
+Checksum:   0x0000CD7D Time Stamp: 0x5915F8E8
+File Size:  25600      File Time:  20/6/2017 14:12:30
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Language Pack
+	FileVer:	6.1.7601.23807
+	ProdVer:	6.1.7601.23807
+
+Module 58
+C:\Windows\syswow64\MSCTF.dll
+Image Base: 0x77360000 Image Size: 0x000CD000
+Checksum:   0x000DA8B3 Time Stamp: 0x57FD0304
+File Size:  829952     File Time:  20/6/2017 14:12:13
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	MSCTF 
+	FileVer:	6.1.7601.23572
+	ProdVer:	6.1.7601.23572
+
+Module 59
+C:\Windows\syswow64\SHLWAPI.dll
+Image Base: 0x77670000 Image Size: 0x00057000
+Checksum:   0x00058D59 Time Stamp: 0x56F58436
+File Size:  350720     File Time:  20/6/2017 13:22:10
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23403
+	ProdVer:	6.1.7601.23403
+
+Module 60
+C:\Windows\syswow64\USER32.dll
+Image Base: 0x776D0000 Image Size: 0x00100000
+Checksum:   0x000D565A Time Stamp: 0x58249E1C
+File Size:  833024     File Time:  20/6/2017 14:12:28
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	
+	FileVer:	6.1.7601.23594
+	ProdVer:	6.1.7601.23594
+
+Module 61
+C:\Windows\syswow64\CLBCatQ.DLL
+Image Base: 0x777D0000 Image Size: 0x00083000
+Checksum:   0x0008A2D1 Time Stamp: 0x56F582FB
+File Size:  522240     File Time:  20/6/2017 13:22:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	COM+ Configuration Catalog
+	FileVer:	2001.12.8531.23403
+	ProdVer:	6.1.7601.23403
+
+Module 62
+C:\Windows\syswow64\WS2_32.dll
+Image Base: 0x77A00000 Image Size: 0x00035000
+Checksum:   0x00035877 Time Stamp: 0x57334D8C
+File Size:  206336     File Time:  20/6/2017 13:56:29
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	Windows Socket 2.0 32 
+	FileVer:	6.1.7601.23451
+	ProdVer:	6.1.7601.23451
+
+Module 63
+C:\Windows\SysWOW64\ntdll.dll
+Image Base: 0x77E40000 Image Size: 0x00180000
+Checksum:   0x00146B93 Time Stamp: 0x598D4C81
+File Size:  1314112    File Time:  11/8/2017 06:21:22
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Windows® Operating System
+	FileDesc:	NT 
+	FileVer:	6.1.7601.23889
+	ProdVer:	6.1.7601.23889
+
+Module 64
+E:\MHGLServer\MSVCR71.dll
+Image Base: 0x7C360000 Image Size: 0x00056000
+Checksum:   0x0005BF56 Time Stamp: 0x44B451E8
+File Size:  348160     File Time:  1/7/2017 08:12:03
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Visual Studio .NET
+	FileDesc:	Microsoft® C Runtime Library
+	FileVer:	7.10.6030.0
+	ProdVer:	7.10.6030.0
+
+Module 65
+E:\MHGLServer\MSVCP71.dll
+Image Base: 0x7C3C0000 Image Size: 0x0007C000
+Checksum:   0x00085B26 Time Stamp: 0x44B451ED
+File Size:  503808     File Time:  2/12/2011 06:43:50
+Version Information:
+	Company:	Microsoft Corporation
+	Product:	Microsoft® Visual Studio .NET
+	FileDesc:	Microsoft® C++ Runtime Library
+	FileVer:	7.10.6030.0
+	ProdVer:	7.10.6030.0
+
+=========[End of E:\MHGLServer\Error\2017-09-30 15.03.52.0612 Crash.log]=========

@@ -1,0 +1,11 @@
+[2018-05-19 09.46.23] wmain : Service Manager Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2018-05-19 09.46.23] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Object2 service, serviceId 9
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Log service, serviceId 10
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Object1 service, serviceId 12
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Message service, serviceId 13
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, World service, serviceId 11
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Map1 service, serviceId 25
+[2018-05-19 09.47.39] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Proxy1 service, serviceId 15
+[2018-05-19 09.47.39] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2018-05-19 09.47.39] wmain : Service Manager Shutdown

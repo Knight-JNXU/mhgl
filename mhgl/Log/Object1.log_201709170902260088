@@ -1,0 +1,22 @@
+[2017-09-17 08.26.00] wmain : Service Object1 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-17 08.26.00] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-17 09.02.25] LocalRPCManager::DeleteAll Warning : NetObject remains 17
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 35288184
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 35288704, netId 12,327, total objects 34
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 35288964
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 35290524, netId 12,395, total objects 33
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 35290264
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 47363660, netId 12,478, total objects 32
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47364180
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47364960
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 47365740, netId 12,568, total objects 31
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 47367040, netId 12,610, total objects 30
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47366520
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 47368340, netId 12,698, total objects 29
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47363400
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 47370420, netId 12,786, total objects 28
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47370680
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47372500
+[2017-09-17 09.02.25] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 47372760
+[2017-09-17 09.02.26] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-17 09.02.26] wmain : Service Object1 Shutdown

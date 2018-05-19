@@ -1,0 +1,6 @@
+[2017-10-09 00.28.31] wmain : Service World Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-10-09 00.28.31] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-10-09 08.48.44] CAccount::AddCharacter : AddCharacter Error: ObjectService:CB_Error, errcode 0, ObjectService_Stub::CreateCharacter Warning : a player already used the name
+[2017-10-09 11.44.32] CAccount::AddCharacter : AddCharacter Error: ObjectService:CB_Error, errcode 0, ObjectService_Stub::CreateCharacter Warning : a player already used the name
+[2017-10-09 15.29.56] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-10-09 15.29.57] wmain : Service World Shutdown

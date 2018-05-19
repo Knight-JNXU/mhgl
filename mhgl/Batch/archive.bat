@@ -1,0 +1,1 @@
+start call Batch\do_archive.bat %1

@@ -1,0 +1,63 @@
+[2017-09-15 16.59.08] wmain : Service Object2 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-15 16.59.08] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+ObjectService_Stub::CreateSystemLetter : 
+[2017-09-16 20.45.36] ObjectService_Stub::CreateGuild Error : DB_FAILED Guild create failed, hr 0x00000001
+[2017-09-16 20.46.25] ObjectService_Stub::CreateGuild Error : DB_FAILED Guild create failed, hr 0x00000001
+[2017-09-16 20.46.46] ObjectService_Stub::CreateGuild Error : DB_FAILED Guild create failed, hr 0x00000001
+[2017-09-16 20.49.24] ObjectService_Stub::CreateGuild Error : DB_FAILED Guild create failed, hr 0x00000001
+[2017-09-16 22.49.36] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-16 22.49.36] wmain : Service Object2 Shutdown

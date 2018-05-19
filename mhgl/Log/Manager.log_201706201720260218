@@ -1,0 +1,7 @@
+[2017-06-20 17.20.25] wmain : Service Manager Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-06-20 17.20.25] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-06-20 17.20.26] Global::ConnectDatabase Error : cannot connect to manage database, hr 0x80040E4D
+[2017-06-20 17.20.26] CDboSource::ShowError : CDboSource OLE Error: ID 11461340, hr 0x80040e4d: 
+Microsoft SQL Native Client:
+[2017-06-20 17.20.26] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-06-20 17.20.26] wmain : Service Manager Shutdown

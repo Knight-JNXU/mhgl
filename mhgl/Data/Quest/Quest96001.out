@@ -1,0 +1,462 @@
+
+Preload("Quest22017.lua")
+-- 定义任务表 : 任务表是个 lua table, 名称要与脚本名称相同
+Quest96001 = {
+	quest_id = 96001,							-- 任务 ID
+	type_name = "野外战斗奖励",
+	addMob = true,
+	kill = false,
+	weizhi = 0,
+	catch = false,
+	MobIsExist = false
+}
+
+-- Quest96001 拿取任务方法
+function Quest96001:Take()
+	
+					
+end
+
+-- Quest96001 交回任务方法  battle100000 至 battle 100090      battle 100100 至 battle 100112
+function Quest96001:Return(OtherId)
+	local  RYear = LuaI.GetRealYear(LuaI.GetServiceTime()) 
+	local  RMonth = LuaI.GetRealMonth(LuaI.GetServiceTime())
+	local  RDay   = LuaI.GetRealDay(LuaI.GetServiceTime())
+	
+	
+	
+	for i = 0, battle:GetCharacterCount() - 1 do   -- 侠义值循环
+		local actor = battle:GetCharacter(i)
+		local num = 0
+		local level = {
+			[100] = 1,
+			[200] = 4,
+			[300] = 7,
+			[400] = 10,
+			[500] = 13,
+			[700] = 16,
+			[600] = 19,
+			[50100] = 22,
+			[50200] = 25,
+			[50300] = 28,
+			[800] = 31,
+			[50400] = 34,
+			[50500] = 37,
+			[50600] = 40}
+		local map = actor:GetOwner():GetMap_id()
+		if level[map] ~= nil then
+		
+			if actor:GetLevel() >= level[map]+10 and not actor:IsDead() then
+				local justice = 0
+				for t = 0, battle:GetCharacterCount() - 1 do
+					local member = battle:GetCharacter(t)
+					local Lv = member:GetLevel()+1
+					local Exp = member:GetOwner():GetExp()
+					local result = 0
+					if Lv >= 1 and Lv <= 10 then
+						result = 0.03 * Lv - 0.02 
+					elseif Lv >= 11 and Lv <= 20 then
+						result = 0.166 * Lv - 1.38 
+					elseif Lv >= 21 and Lv <= 30 then
+						result = 0.084 * Lv + 0.26 
+					elseif Lv >= 31 and Lv <= 40 then
+						result = 0.404 * Lv - 9.34 
+					elseif  Lv >= 41 and Lv <= 50 then
+						result = 0.736 * Lv - 22.62 
+					elseif  Lv >= 51 and Lv <= 60 then
+						result = 0.516 * Lv - 11.62 	
+					elseif  Lv >= 61 and Lv <= 70 then
+						result = 1.077 * Lv - 45.28 
+					elseif  Lv >= 71 and Lv <= 80 then
+						result = 0.267 * Lv + 11.42 
+					elseif  Lv >= 81 and Lv <= 90 then
+						result = 0.738 * Lv - 26.26 	
+					end
+					result = result * 6.6 * 70 * (4 * Lv + 10) + 100 
+					
+					if Lv-1 >= level[map]-3 and Lv-1 <= level[map]+5 and Lv-1 < 40 and Exp < result then
+						if Lv-1 < 10 then
+							justice = 6
+						elseif Lv-1 < 20 then
+							justice = 7
+						elseif Lv-1 < 30 then
+							justice = 8
+						else
+							justice = 9
+						end
+						actor:GetOwner():ChangeGoodnessForScript(justice,44)
+						num = num + justice
+					elseif Lv-1 >= level[map]-3 and Lv-1 <= level[map]+5 and Lv-1 < 40 and Exp >= result then
+						ShowMessage(string.format("\#W%s当前经验已满，无法获得侠义值",member:GetOwner():GetName()),actor:GetOwner())
+					end
+				end
+				
+				if num ~= 0 then
+					ShowHint(string.format("帮助新手有功，获得侠义值%d",num),actor)
+				end
+			end
+		end
+	end
+
+	
+	for i = 0, battle:GetCharacterCount() - 1 do	-- 物品掉落 及经验循环
+			local actor = battle:GetCharacter(i)
+			if actor then
+				if not actor:IsDead() and actor:GetOwner() then
+					if  actor:HasBuff(244) then
+						local Jpoint = 0;
+						local Buff244Value1 = 0;
+						local Buff244 = actor:FindBuff(244);
+						if party then
+							local jobCount = GetPartyDifferentClass(actor);
+							if jobCount == 4 then
+								Jpoint = 5;
+							else
+								Jpoint = jobCount;
+							end
+						else
+							Jpoint = 1;
+						end	
+						if  Buff244:GetBuffValue1() < 350 then
+							Buff244Value1 = Buff244:GetBuffValue1() + Jpoint;
+							if Buff244Value1 > 350 then
+								Buff244Value1 = 350;
+							end
+							Buff244:SetBuffValue1(Buff244Value1);
+							ShowMessage(string.format("\#W酿酒度增加%d点",Jpoint),actor:GetOwner())
+						end	
+					end
+					if battle:GetCharacterCount() == 5 and math.random(1,100) == 1 then
+						local ItemId = 0
+						local MapId = actor:GetOwner():GetMap_id()
+						if MapId == 100 or MapId == 200 or MapId == 300 or MapId == 400 or MapId == 500 then
+							ItemId = 53100
+						elseif MapId == 700 or MapId == 600 or MapId == 50100 then
+							ItemId = 53101
+						elseif MapId == 50200 or MapId == 50300 or MapId == 800 or MapId == 50400 then
+							ItemId = 53102
+						elseif MapId == 50500 or MapId == 50600 or MapId == 50700 then	
+							ItemId = 53103
+						elseif MapId == 50800 or MapId == 900 or MapId == 1000 then
+							ItemId = 53104
+						elseif MapId == 1100 or MapId == 1200 or MapId == 1300 or MapId == 1400 then
+							ItemId = 53105
+						elseif MapId == 1500 or MapId == 1600 or MapId == 1800 then
+							ItemId = 53106
+						elseif MapId == 1700 or MapId == 51400 or MapId == 51500 or MapId == 51600 or MapId == 51700 then
+							ItemId = 53107
+						end
+						
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							actor:GetOwner():GetItems():AddItemForScript(ItemId,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(ItemId)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(ItemId)))
+						end
+					end
+					
+					-------------面具模型掉落  要添加模型，请按类别增加随机数字   
+					--[[local LZ = math.random(401500,401520)
+					local PT = math.random(401400,401419)
+					local JZ = math.random(401300,401311)
+					local mianju = math.random(1,100000)
+					local mjID 
+					if mianju < 110 then
+						mjID = LZ
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							actor:GetOwner():GetItems():AddItemForScript(mjID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(mjID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(mjID)))
+						end
+					elseif mianju < 210 then
+						mjID = PT
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							actor:GetOwner():GetItems():AddItemForScript(mjID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(mjID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(mjID)))
+						end
+					elseif mianju < 215 then
+						mjID = JZ
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							actor:GetOwner():GetItems():AddItemForScript(mjID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(mjID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(mjID)))
+						end
+					end
+					-----------------------易容道具，朱砂掉落
+					local zhusha = math.random(1,100000)
+					
+					if zhusha < 312 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local zsID = 401032
+							actor:GetOwner():GetItems():AddItemForScript(zsID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(zsID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(zsID)))
+						end
+					end
+					-----------------------------易容道具，丹青掉落
+					local zhusha = math.random(1,10000)
+					
+					if zhusha < 5 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local zhusha = 401031
+							actor:GetOwner():GetItems():AddItemForScript(zhusha,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(zhusha)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(zhusha)))
+						end
+					end
+					-----------------------------易容道具，画皮掉落
+					local renpi = math.random(1,1000)
+					
+					if renpi < 8 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local renpiID = 401010
+							actor:GetOwner():GetItems():AddItemForScript(renpiID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(renpiID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(renpiID)))
+						end
+					elseif renpi < 14 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local renpiID = 401011
+							actor:GetOwner():GetItems():AddItemForScript(renpiID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(renpiID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(renpiID)))
+						end
+					end
+					
+					------------------------易容术 学习道具  换容巧术
+					local hrqs = math.random(1,100000)
+					
+					if hrqs < 70 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local hrID = 401040
+							actor:GetOwner():GetItems():AddItemForScript(hrID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(hrID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(hrID)))
+						end
+					elseif hrqs < 100 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local hrID = 401041
+							actor:GetOwner():GetItems():AddItemForScript(hrID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(hrID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(hrID)))
+						end
+					elseif hrqs < 115 then
+						if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+							local hrID = 401042
+							actor:GetOwner():GetItems():AddItemForScript(hrID,1)
+							actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(hrID)))
+						else
+							actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(hrID)))
+						end
+					end]]
+					
+					
+					-----------------城镇任务，妙峰山药材掉落
+					if HasQuest(22017) and actor:GetOwner():GetMap_id() == 800 and player:GetQuests():GetFlag(22017) == 9 and actor:GetOwner():GetItems():GetItemCount(80050) < 6 then
+						
+						local yc = math.random(1,2)
+						if yc == 1 then
+							
+							if actor:GetOwner():GetItems():GetFreeSlot(0)>0 then
+								actor:GetOwner():GetItems():AddItem(80050,1)
+								ShowError(string.format("\#W获得%s",GetItemName(80050)))
+							else
+								ShowError("\#W当前包裹已满，无法获得道具。")
+							end
+						end
+					end
+					
+					------------------bat100009  龙脑香	IdOne == 1
+					local player_1=actor:GetOwner()
+					if HasQuest(20011) and player_1:GetQuests():GetFlag(20011)==3 and  not actor:IsDead() and OtherId == 1 then 
+						
+							local random_1 = math.random(1,100)
+							if random_1 <=100 then
+								if player_1:GetItems():GetFreeSlot(0)>0 then
+									if player_1:GetItems():GetItemCount(72010)<15 then
+										player_1:GetItems():AddItem(72010,1)
+										ShowHint("得到龙脑香")
+									end
+								end
+							end
+					end
+					---------------------bat10018 红缎子  IdOne == 3
+					if OtherId == 3 and HasQuest(20002) and player_1:GetQuests():GetFlag(20002)==2 and self.MobIsExist and  not actor:IsDead()  then 
+						
+							local random_1 = math.random(1,100)
+							if random_1 <=75 then
+								if player_1:GetItems():GetFreeSlot(0)>0 then
+									if player_1:GetItems():GetItemCount(72001)==0 then
+										player_1:GetItems():AddItem(72001,1)
+										ShowHint("得到红缎子")
+									end
+								end
+							end
+					end
+					if actor:GetOwner():GetQuests():HasQuest(10620)  and 
+						actor:GetOwner():GetItems():GetItemCount(80003) < 1 and 
+						actor:GetOwner():GetItems():GetFreeSlot(0) > 0 and 
+						math.random(1,100) < 25 then
+						actor:GetOwner():GetItems():AddItemForScript(80003, 1)
+						actor:GetOwner():GetScript():ShowError("\#W获得金丝软甲")
+					end
+						------2010春节活动的烟花 
+					if actor:HasBuff(287) then
+						local Jpoint = 0
+						if party then
+							local jobCount = GetPartyDifferentClass(actor);
+							if jobCount == 4 then
+								Jpoint = 5
+							else
+								Jpoint = jobCount
+							end
+						else
+							Jpoint = 1
+						end	
+						if math.random(1,100) <= 5*(Jpoint + 2) then
+							ItemId = RandTable({ 53059, 53060, 53061, 53062, 53063, 53064, 53065, 53066, 53067})
+							if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then
+								actor:GetOwner():GetItems():AddItemForScript(ItemId,1)
+								actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(ItemId)))
+							else
+								actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(ItemId)))
+							end	
+						end				
+					end
+					
+					------圣诞宝箱 
+					if OtherId == 3 and RYear== 2009 and RMonth == 12 and (RDay >= 18 and RDay<= 29) then
+						if math.random(1, 100) <= 5 then
+							ItemId = RandTable({53040})
+							if actor:GetOwner():GetItems():GetFreeSlot(0) > 0 then							
+								actor:GetOwner():GetItems():AddItemForScript(ItemId,1)
+								actor:GetOwner():GetScript():ShowError(string.format("\#W获得%s",GetItemName(ItemId)))
+							else
+								actor:GetOwner():GetScript():ShowError(string.format("\#W当前背包已满，无法获得%s",GetItemName(ItemId)))
+							end
+						end
+					end	
+				end	
+				-------梦寐以求的酒？ bat100033    == 4
+				local owner = actor:GetOwner()
+				if owner  then
+					local level = {
+						[50500] = 37,
+						[50600] = 40,
+						[50700] = 43,
+						[50800] = 46,
+						[900] = 49,
+						[1000] = 52,
+						[1100] = 55,
+						[1200] = 58,
+						[1300] = 61,
+						[1400] = 64,
+						[1500] = 67,
+						[1600] = 70,
+						[1800] = 73,
+						[1700] = 76,
+						[51400] = 79,
+						[51500] = 82,
+						[51600] = 85,
+						[51700] = 88,
+						[1900] = 94,
+						[1901] = 101,
+						[2000] = 108,
+						[2001] = 115,
+						}
+					local map = owner:GetMap_id()
+					if level[map] ~= nil then
+						if owner:GetLevel() <= level[map] + 4 and owner:GetLevel() >= level[map] - 4 and OtherId == 4 then
+							if  not actor:IsDead() and owner:GetQuests():HasQuest(26001) then
+								local quest26001 = owner:GetQuests():GetQuest(26001) 
+								local Item = quest26001:GetTargetItemId(1)
+								local ItemCount = quest26001:GetTargetItemMax(1)
+								local ItemName = GetItemName(Item)	
+								local owner = player:GetQuests():GetFlag(26001)
+								if math.random(1,100) == 1 and flag == 0 then
+									if owner:GetItems():GetFreeSlot(0) > 0 then
+										if  Item ~= 34040 and
+											Item ~= 34050 and
+											Item ~= 34060 and
+											Item ~= 34070 and
+											Item ~= 34080 and
+											Item ~= 34090 and
+											Item ~= 34100 and
+											Item ~= 34110 and
+											Item ~= 34120 and
+											Item ~= 34130 and
+											Item ~= 34140 and
+											Item ~= 34150 and
+											Item ~= 34160 and
+											Item ~= 34170 and
+											Item ~= 34180 and
+											Item ~= 34190 and
+											Item ~= 34200 and
+											Item ~= 34210 and
+											Item ~= 34220 then
+											owner:GetItems():AddItem(Item, ItemCount)
+										else
+											owner:GetItems():AddItem(Item, ItemCount, 5)
+										end
+										ShowMessage(string.format("\#W获得梦寐以求的%s",ItemName),owner)
+									else
+										ShowMessage(string.format("\#W包裹已满，无法获得梦寐以求的%s",ItemName),owner)
+									end
+									owner:GetQuests():SetFlag(26001,1)
+								end
+							end
+						end
+						
+					end
+					
+					--世博会 == 5
+					if (OtherId == 5 or OtherId == 4) and RYear== 2010 and RMonth > 4 and RMonth < 11 then
+						if owner:GetItems():GetFreeSlot(0) > 0 and owner:GetLevel() >= 40 then
+							local k = math.random(0,99)
+							if k < 1 then 
+								owner:GetItems():AddItemForScript(79039,1)
+								owner:GetScript():ShowError("\#W获得“祝”字字牌")
+							elseif k < 2 then
+								owner:GetItems():AddItemForScript(79040,1)
+								owner:GetScript():ShowError("\#W获得“2”字字牌")
+							elseif k < 3 then
+								owner:GetItems():AddItemForScript(79042,1)
+								owner:GetScript():ShowError("\#W获得“1”字字牌")
+							elseif k < 4 then
+								owner:GetItems():AddItemForScript(79044,1)
+								owner:GetScript():ShowError("\#W获得“界”字字牌")
+							elseif k < 5 then
+								owner:GetItems():AddItemForScript(79046,1)
+								owner:GetScript():ShowError("\#W获得“览”字字牌")
+							elseif k < 6 then
+								owner:GetItems():AddItemForScript(79047,1)
+								owner:GetScript():ShowError("\#W获得“会”字字牌")
+							elseif k < 7 then
+								owner:GetItems():AddItemForScript(79048,1)
+								owner:GetScript():ShowError("\#W获得“圆”字字牌")
+							elseif k < 8 then
+								owner:GetItems():AddItemForScript(79049,1)
+								owner:GetScript():ShowError("\#W获得“满”字字牌")
+							end
+						end
+					end
+				end
+		
+			
+			end	
+	end
+	
+end
+
+-- 必需在脚本最后将任务表加入系统中
+AddQuestTable(Quest96001)

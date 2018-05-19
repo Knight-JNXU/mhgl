@@ -1,0 +1,38 @@
+[2017-09-28 12.49.38] wmain : Service Object1 Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2017-09-28 12.49.38] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-28 12.50.22] LocalRPCManager::DeleteAll Warning : NetObject remains 33
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34550020, netId 12,200, total objects 35
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34559692, netId 12,201, total objects 34
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34564180, netId 12,202, total objects 33
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563976, netId 12,203, total objects 32
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34564112, netId 12,204, total objects 31
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34564044, netId 12,205, total objects 30
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563772, netId 12,206, total objects 29
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563840, netId 12,207, total objects 28
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563704, netId 12,208, total objects 27
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563500, netId 12,209, total objects 26
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563908, netId 12,210, total objects 25
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563568, netId 12,211, total objects 24
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563364, netId 12,212, total objects 23
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563160, netId 12,213, total objects 22
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563636, netId 12,214, total objects 21
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563432, netId 12,215, total objects 20
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563228, netId 12,216, total objects 19
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563296, netId 12,217, total objects 18
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562956, netId 12,218, total objects 17
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563092, netId 12,219, total objects 16
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562888, netId 12,220, total objects 15
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34563024, netId 12,221, total objects 14
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562820, netId 12,222, total objects 13
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562684, netId 12,223, total objects 12
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562752, netId 12,224, total objects 11
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562616, netId 12,225, total objects 10
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562480, netId 12,226, total objects 9
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34562548, netId 12,227, total objects 8
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34552196, netId 12,261, total objects 7
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34561732, netId 12,262, total objects 6
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 10340, objID 34548796, netId 12,263, total objects 5
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete Warning : not found, obj_id 46779708
+[2017-09-28 12.50.22] Reuben::Simulation::ObjectManager::Delete : classID 62000, objID 46781008, netId 12,355, total objects 4
+[2017-09-28 12.50.22] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2017-09-28 12.50.22] wmain : Service Object1 Shutdown
