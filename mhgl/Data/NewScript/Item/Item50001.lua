@@ -13,7 +13,6 @@ function Item50001:MapUse(target)
   end
 	ShowHint("获得10000000点经验")
 	player:ChangeExp(10000000,4)
-  player:GetItems():RemoveItem(50001,1)
 end
 
 

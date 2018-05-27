@@ -58,7 +58,7 @@ function skill1601Use(Atk, Target, battle, skillLv)
 	end
 	
 	if math.random(1, 100) <= Rate then
-		Atk:JumpMap(27, 48, 143);
+		Atk:JumpMap(27, 90, 224);
 	else
 		Atk:SkillFail("\#W学艺不精，千里神行施展失败");
 	end

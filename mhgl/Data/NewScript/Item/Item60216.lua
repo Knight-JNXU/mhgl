@@ -17,7 +17,7 @@ function Item60216:MapUse(target)
   SetAnswer(3,"离开")
   WaitAnswer(3)
   if GetAnswer() == 1 then
-      player:GetItems():AddItem(50000, 1)
+      player:GetItems():AddItem(50001, 1)
       player:GetItems():AddItem(91237, 1)	 
       player:GetItems():AddItem(91230, 1)
       player:GetItems():AddItem(91223, 1)

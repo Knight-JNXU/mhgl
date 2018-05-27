@@ -1,4 +1,4 @@
-[2018-05-19 09.48.00] wmain : Service Log Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
-[2018-05-19 09.48.00] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
-[2018-05-19 09.49.43] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
-[2018-05-19 09.49.43] wmain : Service Log Shutdown
+[2018-05-26 11.50.51] wmain : Service Log Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2018-05-26 11.50.51] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2018-05-26 11.57.19] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2018-05-26 11.57.19] wmain : Service Log Shutdown

@@ -531,6 +531,8 @@ function Quest30400:leaderReturn(character,partnerAlive)
 			local B = LvPlayer / 120
 			local SS = math.random(1000,2000)
 			Money =  1500 * Quest30400Round * B + SS + 50000
+			--上调10倍银两
+			Money = Money * 10
 			SMoney = 4000 * Quest30400Round * A * 2 / 2
 			
 			local buff = character:HasBuff(218) and 2 or 1
