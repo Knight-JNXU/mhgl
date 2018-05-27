@@ -1,0 +1,1325 @@
+[2018-05-27 21.03.46] wmain : Service Map1 Startup Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2018-05-27 21.03.46] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 1,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 4,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 5,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 6,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 7,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 8,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 9,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 10,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 11,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 12,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 13,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 14,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 15,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 16,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 17,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 18,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 19,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 20,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 21,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 22,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 23,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 24,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 25,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 26,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 27,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 28,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 29,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 30,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 31,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 32,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 33,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 34,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 35,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 36,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 37,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 38,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 39,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 40,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 41,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 42,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 43,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 44,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 45,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 46,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 47,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 48,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 49,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 50,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 51,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 52,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 53,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 54,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 55,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 56,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 57,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 58,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 59,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 60,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 61,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 62,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 63,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 64,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 65,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 66,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 67,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 68,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 69,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 70,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 71,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 72,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 73,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 74,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 75,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 76,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 77,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 78,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 79,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 80,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 81,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 82,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 83,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 84,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 85,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 86,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 87,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 88,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 89,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 90,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 91,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 92,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 93,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 94,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 95,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 96,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 97,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 98,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 99,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 100,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 101,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 102,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 103,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 104,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 105,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 106,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 107,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 108,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 109,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 110,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 111,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 112,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 113,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 114,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 115,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 116,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 117,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 118,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 119,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 120,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 121,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 122,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 123,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 124,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 125,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 126,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 127,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 128,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 129,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 130,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 131,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 132,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 133,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 134,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 135,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 136,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 137,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 138,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 139,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 140,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 141,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 142,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 143,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 144,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 145,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 146,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 147,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 148,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 149,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 150,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 151,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 152,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 153,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 154,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 155,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 156,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 157,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 158,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 159,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 160,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 161,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 162,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 163,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 164,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 165,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 166,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 167,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 168,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 169,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 170,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 171,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 172,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 173,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 174,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 175,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 176,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 177,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 178,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 179,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 180,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 181,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 182,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 183,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 184,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 185,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 186,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 187,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 188,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 189,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 190,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 191,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 192,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 193,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 194,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 195,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 196,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 197,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 198,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 199,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 201,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 202,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 203,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 204,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 205,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 206,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 207,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 208,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 209,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 210,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 211,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 212,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 213,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 214,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 215,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 216,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 217,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 218,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 219,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 220,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 221,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 222,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 223,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 224,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 225,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 226,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 227,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 228,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 229,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 230,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 231,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 232,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 233,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 234,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 235,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 236,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 237,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 238,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 239,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 240,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 241,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 242,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 243,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 244,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 245,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 246,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 247,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 248,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 249,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 250,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 251,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 252,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 253,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 254,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 255,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 256,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 257,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 258,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 259,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 260,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 261,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 262,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 263,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 264,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 265,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 266,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 267,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 268,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 269,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 270,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 271,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 272,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 273,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 274,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 275,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 276,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 277,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 278,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 279,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 280,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 281,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 282,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 283,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 284,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 285,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 286,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 287,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 288,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 289,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 290,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 291,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 292,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 293,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 294,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 295,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 296,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 297,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 298,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 299,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 302,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 303,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 304,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 305,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 306,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 308,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 309,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 310,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 311,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 312,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 313,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 314,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 315,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 316,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 317,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 318,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 319,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 320,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 321,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 322,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 323,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 324,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 325,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 326,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 327,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 328,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 329,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 330,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 331,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 332,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 333,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 334,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 335,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 336,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 337,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 338,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 339,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 340,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 341,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 342,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 343,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 344,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 345,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 346,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 347,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 348,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 349,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 351,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 352,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 353,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 354,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 355,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 356,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 357,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 358,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 359,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 360,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 361,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 362,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 363,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 364,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 365,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 366,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 367,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 368,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 369,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 370,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 371,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 372,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 373,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 374,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 375,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 376,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 377,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 378,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 379,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 380,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 381,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 382,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 383,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 384,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 385,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 386,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 387,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 388,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 389,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 390,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 391,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 392,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 393,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 394,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 395,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 396,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 397,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 398,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 399,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 404,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 405,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 406,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 408,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 409,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 410,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 411,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 412,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 413,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 414,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 415,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 416,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 417,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 418,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 419,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 420,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 421,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 422,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 423,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 424,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 425,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 426,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 427,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 428,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 429,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 430,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 431,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 432,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 433,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 434,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 435,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 436,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 437,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 438,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 439,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 440,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 441,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 442,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 443,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 444,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 445,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 446,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 447,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 448,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 449,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 450,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 451,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 452,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 453,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 454,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 455,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 456,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 457,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 458,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 459,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 460,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 461,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 462,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 463,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 464,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 465,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 466,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 467,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 468,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 469,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 470,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 471,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 472,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 473,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 474,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 475,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 476,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 477,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 478,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 479,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 480,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 481,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 482,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 483,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 484,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 485,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 486,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 487,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 488,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 489,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 490,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 491,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 492,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 493,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 494,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 495,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 496,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 497,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 498,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 499,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 500,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 501,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 502,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 503,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 504,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 505,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 506,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 507,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 508,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 509,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 510,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 511,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 512,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 513,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 514,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 515,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 516,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 517,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 518,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 519,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 520,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 521,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 522,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 523,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 524,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 525,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 526,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 527,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 528,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 529,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 530,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 531,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 532,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 533,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 534,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 535,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 536,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 537,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 538,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 539,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 540,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 541,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 542,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 543,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 544,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 545,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 546,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 547,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 548,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 549,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 550,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 551,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 552,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 553,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 554,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 555,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 556,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 557,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 558,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 559,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 560,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 561,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 562,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 563,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 564,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 565,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 566,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 567,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 568,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 569,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 570,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 571,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 572,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 573,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 574,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 575,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 576,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 577,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 578,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 579,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 580,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 581,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 582,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 583,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 584,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 585,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 586,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 587,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 588,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 589,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 590,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 591,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 592,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 593,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 594,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 595,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 596,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 597,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 598,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 599,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 600,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 601,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 602,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 603,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 604,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 605,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 606,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 607,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 608,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 609,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 610,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 611,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 612,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 613,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 614,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 615,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 616,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 617,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 618,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 619,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 620,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 621,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 622,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 623,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 624,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 625,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 626,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 627,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 628,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 629,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 630,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 631,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 632,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 633,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 634,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 635,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 636,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 637,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 638,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 639,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 640,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 641,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 642,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 643,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 644,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 645,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 646,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 647,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 648,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 649,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 650,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 651,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 652,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 653,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 654,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 655,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 656,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 657,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 658,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 659,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 660,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 661,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 662,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 663,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 664,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 665,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 666,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 667,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 668,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 669,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 670,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 671,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 672,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 673,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 674,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 675,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 676,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 677,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 678,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 679,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 680,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 681,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 682,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 683,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 684,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 685,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 686,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 687,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 688,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 689,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 690,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 691,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 692,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 693,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 694,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 695,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 696,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 697,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 698,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 699,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 701,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 702,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 703,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 704,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 705,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 706,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 707,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 708,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 709,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 710,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 711,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 712,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 713,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 714,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 715,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 716,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 717,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 718,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 719,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 720,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 721,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 722,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 723,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 724,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 725,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 726,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 727,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 728,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 729,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 730,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 731,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 732,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 733,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 734,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 735,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 736,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 737,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 738,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 739,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 740,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 741,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 742,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 743,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 744,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 745,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 746,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 747,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 748,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 749,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 750,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 751,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 752,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 753,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 754,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 755,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 756,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 757,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 758,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 759,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 760,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 761,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 762,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 763,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 764,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 765,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 766,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 767,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 768,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 769,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 770,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 771,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 772,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 773,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 774,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 775,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 776,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 777,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 778,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 779,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 780,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 781,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 782,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 783,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 784,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 785,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 786,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 787,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 788,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 789,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 790,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 791,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 792,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 793,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 794,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 795,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 796,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 797,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 798,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300059,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300060,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300061,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300062,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300063,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300064,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300065,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300066,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300067,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300068,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300069,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300070,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300071,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300072,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300073,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300074,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300075,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300076,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300077,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300078,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300079,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300080,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300081,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300082,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300083,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300084,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300085,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300086,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300087,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300088,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300089,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300090,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300091,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300092,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300093,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300094,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300095,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300096,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300097,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300098,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300410,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300411,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300462,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300463,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300464,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300500,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300501,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300502,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300503,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300504,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300505,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300506,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300507,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300508,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300509,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300510,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300511,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300512,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300513,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300514,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300515,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300516,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300517,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300518,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300519,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300520,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300521,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300522,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300523,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300524,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300525,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300526,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300527,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300528,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300529,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300530,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300531,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300532,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300533,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 300534,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 301005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 791,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 792,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 793,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 794,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 795,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 796,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400500,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400501,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400502,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400503,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400504,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400505,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400506,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400507,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400508,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400509,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400510,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400511,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400512,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400513,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400514,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400515,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400516,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400517,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400518,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400519,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400520,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400521,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400522,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400523,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400524,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400525,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400526,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400527,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400600,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400601,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400602,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400603,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400604,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400700,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400701,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400702,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400703,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400704,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400705,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400800,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400801,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400810,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400811,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400812,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400813,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400814,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400815,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400816,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400817,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400820,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 400902,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401010,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401011,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401120,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401121,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401122,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401123,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401200,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401201,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401202,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700028,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700031,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700032,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700044,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401400,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401401,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401402,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401403,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401404,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 401500,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402007,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 402008,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403007,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403009,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403010,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 403011,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407007,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407008,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 407009,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 1000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3007,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3008,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 3016,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 4000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 4001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 4002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2007,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2008,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2009,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2010,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2011,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2012,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2013,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2014,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2101,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2102,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2103,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2104,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2105,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2106,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2107,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2108,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2109,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2110,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2111,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2112,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2113,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2114,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800011,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800012,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800013,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800014,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 800015,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 370001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350150,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350151,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350152,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350153,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 370002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 370003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 370004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 700003,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2200,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2201,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2202,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2203,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 2204,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350080,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350081,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350082,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350083,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350084,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350085,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350086,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350087,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 350088,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200000,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200001,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200002,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200004,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200005,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200006,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200007,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200008,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200009,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200010,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200011,speed 0,waitTime 0
+[2018-05-27 21.03.46] CNpcManager::LoadDAT : load npc id 200012,speed 0,waitTime 0
+[2018-05-27 21.04.01] CCharacter::GetElementSkills : CCharacter GetElementSkills Test: SkillNum 0
+[2018-05-27 21.07.44] CCharacter::GetElementSkills : CCharacter GetElementSkills Test: SkillNum 0
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 1, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 2, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 3, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 4, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 5, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 6, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 7, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 8, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 9, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 10, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 11, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 12, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 13, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 14, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 15, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 16, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 17, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 18, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 19, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 20, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 21, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 22, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 23, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 24, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 25, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 26, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 27, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 28, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 29, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 30, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 31, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 32, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 33, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 34, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 35, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 36, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 37, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 38, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 39, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 40, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 41, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 42, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 43, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 44, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 45, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 46, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 47, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 48, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 49, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 50, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 51, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 52, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 53, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 54, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 55, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 57, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 58, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 59, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 60, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 61, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 62, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 63, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 64, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 65, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 66, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 67, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 68, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 69, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 70, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 71, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 72, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 73, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 74, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 75, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 76, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 77, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 78, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 79, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 80, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 81, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 82, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 83, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 84, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 85, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 86, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 87, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 88, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 90, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 91, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 93, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 94, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 95, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 96, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 97, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 98, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 99, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 100, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 101, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 102, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 103, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 104, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 105, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 106, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 107, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 108, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 109, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 110, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 111, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 112, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 113, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 114, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 115, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 116, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 117, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 118, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 119, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 120, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 121, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 122, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 123, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 124, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 125, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 126, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 127, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 128, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 129, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 130, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 131, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 132, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 133, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 134, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 135, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 136, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 137, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 138, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 139, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 140, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 141, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 142, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 143, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 144, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 145, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 146, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 147, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 148, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 149, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 150, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 151, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 152, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 153, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 154, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 155, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 156, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 157, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 158, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 250, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 251, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 252, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 253, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 254, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 255, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 256, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 257, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 258, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 259, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 260, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 261, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 262, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 263, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 264, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 265, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 266, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 267, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 268, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 269, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 270, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 271, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 272, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 273, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 500, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 501, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 502, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 503, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 504, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 800, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 2016, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 2017, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 2018, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 2020, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 2021, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 30902, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 53800, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56300, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56400, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56401, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56402, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56403, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56404, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56405, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56406, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56407, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56600, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56601, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56602, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56603, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56620, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56621, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56622, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56623, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56630, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56631, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56632, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56633, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56640, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56641, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56642, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56643, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56650, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56651, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56652, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 56653, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 58000, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 60300, line_id 1
+[2018-05-27 21.30.00] WorldEvent CreateNpc Error: [excess line id in count], eventId 51, map_id 60301, line_id 1
+[2018-05-27 21.32.23] CCharacter::GetElementSkills : CCharacter GetElementSkills Test: SkillNum 0
+[2018-05-27 21.36.41] CItemBag::EquipItem : EquipItem Error: MSG_ITEM_HAVENT_IDENTIFY
+[2018-05-27 21.36.43] CItemBag::EquipItem : EquipItem Error: MSG_ITEM_HAVENT_IDENTIFY
+[2018-05-27 21.36.45] CItemBag::EquipItem : EquipItem Error: MSG_ITEM_HAVENT_IDENTIFY
+[2018-05-27 21.36.46] CItemBag::EquipItem : EquipItem Error: MSG_ITEM_HAVENT_IDENTIFY
+[2018-05-27 21.36.50] CItemBag::EquipItem : EquipItem Error: MSG_ITEM_HAVENT_IDENTIFY

@@ -1352,3 +1352,7 @@
 [2018-05-27 19.24.08] sumMoney 140172, sumBankMoney 0, AddMoney  0, AddBankMoney 0, AddTotal 0
 [2018-05-27 19.39.34] AddSum 0, reduceSum -5, finalAdd -5
 [2018-05-27 19.39.34] sumMoney 141351, sumBankMoney 0, AddMoney  0, AddBankMoney 0, AddTotal 0
+[2018-05-27 19.58.51] AddSum 0, reduceSum -11, finalAdd -11
+[2018-05-27 19.58.51] sumMoney 143419, sumBankMoney 0, AddMoney  0, AddBankMoney 0, AddTotal 0
+[2018-05-27 21.03.45] AddSum 1399, reduceSum -23791, finalAdd -22392
+[2018-05-27 21.03.45] sumMoney 124284, sumBankMoney 0, AddMoney  0, AddBankMoney 0, AddTotal 0
