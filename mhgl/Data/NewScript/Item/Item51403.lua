@@ -42,8 +42,8 @@ Item51402.MapUse = function(l_1_0, l_1_1)
                if type323 == nil then
                  player:GetQuests():SetRoundInfo(323, 1, 1, 1)
             end
-            player:GetItems():AddItem(402850, 2)--元宝票
-			player:GetItems():AddItem(600013, 2)--高级秘籍宝盒x5			
+            player:GetItems():AddItem(402850, 20)--乾元丹
+			player:GetItems():AddItem(600013, 10)--礼包x10			
         --    player:GetPartners():AddPartner(RandTable({374,375,376,397,390,391,63,68,76,394,393,79,83,396,395,392,301,16,308,389,309,310,311,312,388,313,314,315,316,317,318,319,252,254,5001,5002,5003,5004,5005,5006,5013,5016,5017,5011,5009,5007,5012,5015,5018,5010,5008,5014,256,255,600,601}), 1)
             player:GetQuests():GetType(323):ChangeTotalRound(1)--上面这行是随机同伴奖励
 			ShowHint("恭喜领取#P每日福利")
