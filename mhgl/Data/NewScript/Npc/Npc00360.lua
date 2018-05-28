@@ -25,11 +25,11 @@ function Npc00360:Talk(bProcess)
      ShowHint("#R只有低于175的玩家才可以")
       return
     end						
-	if player:GetMoney() < 5000000 then--银两
+	if player:GetMoney() < 10000 then--银两
        NpcSay("银两不足500万")
        return 
     end	 
-	 player:ChangeMoney(-2500000)
+	 player:ChangeMoney(-10000)
 								player:SetFaction(0)
 								--player:ResetCharLevel(Lv)
 								player:RemoveSkill(10000)
