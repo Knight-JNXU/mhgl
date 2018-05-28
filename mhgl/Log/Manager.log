@@ -1,0 +1,5 @@
+[2018-05-28 23.15.10] wmain : Service Manager Startup: Version 0.5.0.12548.0, Reuben 0.1.0.301.0
+[2018-05-28 23.15.10] Reuben::Network::IOCPCModel::PImpl::PImpl : WSAStartup Succeeded, Version 514, HighVersion 514, MaxSockets 0, MaxUdpDg 0, Description WinSock 2.0, SystemStatus Running
+[2018-05-28 23.15.46] ManagerApplication::OnClose : OnClose error : abnormal shutdown, Proxy1 service, serviceId 15
+[2018-05-28 23.15.46] CreateProcess Error: execute (null), cmd "zip -m ./Archive/err_20180528_231546.zip Error/* Log/*", errno 2: The system cannot find the file specified.
+

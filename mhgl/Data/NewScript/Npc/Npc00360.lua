@@ -16,17 +16,17 @@ function Npc00360:Talk(bProcess)
   SetAnswer(5,"我点错了")
  WaitAnswer(5)
  	if GetAnswer() == 4 then
-	NpcAsk(string.format("这里提供背叛门派服务.收费为150W银两.\\r#Y注意：#R已学习的技能会全部清空并且只能在155级以前背判"))
+	NpcAsk(string.format("这里提供背叛门派服务.收费为1W银两.\\r#Y注意：#R已学习的技能会全部清空并且只能在155级以前背判"))
 	SetAnswer(1,"背叛门派,不管你有没有门派，点了就收银两哦")
 	SetAnswer (2, "离开")
 	WaitAnswer(2)
 	if GetAnswer() == 1 then
-    if player:GetLevel() > 200 then
-     ShowHint("#R只有低于175的玩家才可以")
+    if player:GetLevel() > 155 then
+     ShowHint("#R只有低于155的玩家才可以")
       return
     end						
 	if player:GetMoney() < 10000 then--银两
-       NpcSay("银两不足500万")
+       NpcSay("银两不足1w两！")
        return 
     end	 
 	 player:ChangeMoney(-10000)
